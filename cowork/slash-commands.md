@@ -8,36 +8,17 @@ count: 30
 
 # Cowork Slash Commands
 
-30 commands available.
-
-## anthropic-skills (6)
-
 - `anthropic-skills:docx`
 - `anthropic-skills:pdf`
 - `anthropic-skills:pptx`
 - `anthropic-skills:schedule`
 - `anthropic-skills:skill-creator`
 - `anthropic-skills:xlsx`
-
-## built-in (9)
-
 - `compact`
 - `context`
 - `cost`
-- `init`
-- `insights`
-- `pr-comments`
-- `release-notes`
-- `review`
-- `security-review`
-
-## cowork-plugin-management (2)
-
 - `cowork-plugin-management:cowork-plugin-customizer`
 - `cowork-plugin-management:create-cowork-plugin`
-
-## data (13)
-
 - `data:analyze`
 - `data:build-dashboard`
 - `data:create-viz`
@@ -51,3 +32,9 @@ count: 30
 - `data:statistical-analysis`
 - `data:validate`
 - `data:write-query`
+- `init`
+- `insights`
+- `pr-comments`
+- `release-notes`
+- `review`
+- `security-review`

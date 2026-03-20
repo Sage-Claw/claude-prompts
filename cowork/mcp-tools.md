@@ -8,15 +8,8 @@ count: 5
 
 # Cowork Enabled MCP Tools
 
-5 tools enabled.
-
-## filesystem (4)
-
 - `filesystem:directory_tree`
 - `filesystem:list_allowed_directories`
 - `filesystem:list_directory`
 - `filesystem:read_text_file`
-
-## local (1)
-
 - `local:filesystem:list_directory-edbc26124fa7f9b2898a4acb557c5043`

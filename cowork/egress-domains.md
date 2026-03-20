@@ -8,8 +8,6 @@ count: 22
 
 # Cowork Egress Allowed Domains
 
-22 domains.
-
 - `*.anthropic.com`
 - `*.claude.com`
 - `anthropic.com`
