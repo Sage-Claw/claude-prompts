@@ -29,11 +29,10 @@ The script handles macOS automatically. For Windows, the user will need to run i
 
 ```bash
 python3 skills/cowork-prompt-tracker/scripts/extract_prompt.py \
-  --repo ~/github/claude-prompts \
-  --app-version "1.1.7464 (2809b6)"   # Claude for Mac version — update each run
+  --repo ~/github/claude-prompts
 ```
 
-`--app-version` is not in the session JSON. Find it at **Claude for Mac → menu bar → Claude → About Claude**. Ask the user for it before running if they haven't provided it.
+The app version is auto-detected from `/Applications/Claude.app/Contents/Info.plist` and `Contents/Resources/claude-ssh/version.txt`. Pass `--app-version "x.x.x (hash)"` to override.
 
 The script outputs JSON. Parse it to get `status`, `full_diff`, `diff_added`, `diff_removed`, `model`, `cowork_version`, `app_version`, `commit_hash`, `previous_hash`, and `prompt_hash`.
 

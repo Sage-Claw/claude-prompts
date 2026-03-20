@@ -5,8 +5,7 @@ Usage:
     python extract_prompt.py [--repo REPO_PATH] [--dry-run] [--app-version VERSION]
 
     --app-version: Claude for Mac app version string (e.g. "1.1.7464 (2809b6)").
-                   Not available in session JSON — must be provided manually.
-                   Find it in Claude for Mac → menu bar → Claude → About Claude.
+                   Auto-detected from /Applications/Claude.app if not provided.
 
 Output (JSON to stdout):
     {
@@ -41,6 +40,29 @@ SESSIONS_BASE = os.path.expanduser(
     "~/Library/Application Support/Claude/local-agent-mode-sessions"
 )
 DEFAULT_REPO = os.path.expanduser("~/github/claude-prompts")
+CLAUDE_APP = "/Applications/Claude.app"
+
+
+def detect_app_version():
+    """Auto-detect Claude for Mac version from the app bundle."""
+    try:
+        import plistlib
+        plist_path = os.path.join(CLAUDE_APP, "Contents", "Info.plist")
+        with open(plist_path, "rb") as f:
+            info = plistlib.load(f)
+        version = info.get("CFBundleShortVersionString") or info.get("CFBundleVersion")
+        if not version:
+            return None
+        # Get short build hash from version.txt
+        version_txt = os.path.join(CLAUDE_APP, "Contents", "Resources", "claude-ssh", "version.txt")
+        if os.path.exists(version_txt):
+            with open(version_txt) as f:
+                full_hash = f.read().strip()
+            short_hash = full_hash[:7] if len(full_hash) >= 7 else full_hash
+            return f"{version} ({short_hash})"
+        return version
+    except Exception:
+        return None
 
 
 def find_sessions(base=SESSIONS_BASE):
@@ -96,7 +118,7 @@ def main():
 
     repo_path = os.path.expanduser(args.repo)
     output_path = os.path.join(repo_path, "cowork", "system-prompt.md")
-    app_version = args.app_version
+    app_version = args.app_version or detect_app_version()
 
     # --- Find & load sessions ---
     sessions = find_sessions()
@@ -140,6 +162,7 @@ def main():
             "prompt_hash": prompt_hash,
             "model": model,
             "cowork_version": cowork_version,
+            "app_version": app_version,
             "output_path": output_path,
             "date": date_str,
         }
