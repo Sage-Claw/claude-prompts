@@ -43,6 +43,41 @@ DEFAULT_REPO = os.path.expanduser("~/github/claude-prompts")
 CLAUDE_APP = "/Applications/Claude.app"
 
 
+# ── Brew update check ──────────────────────────────────────────────────────────
+
+def run(cmd, **kw):
+    return subprocess.run(cmd, capture_output=True, text=True, **kw)
+
+
+def get_brew_versions():
+    """Return (installed, latest) version strings from `brew info --cask claude`.
+    Returns (None, None) if brew or the cask isn't available."""
+    r = run(["brew", "info", "--cask", "claude", "--json=v2"])
+    if r.returncode != 0:
+        return None, None
+    try:
+        data = json.loads(r.stdout)
+        casks = data.get("casks", [])
+        if not casks:
+            return None, None
+        cask = casks[0]
+        latest = cask.get("version")
+        installed_list = cask.get("installed")  # list of installed version dicts or None
+        if installed_list:
+            installed = installed_list[0].get("version") if isinstance(installed_list[0], dict) else installed_list[0]
+        else:
+            installed = None
+        return installed, latest
+    except Exception:
+        return None, None
+
+
+def brew_upgrade_claude():
+    """Run `brew upgrade --cask claude`. Returns (success, output)."""
+    r = run(["brew", "upgrade", "--cask", "claude"])
+    return r.returncode == 0, (r.stdout + r.stderr).strip()
+
+
 def detect_app_version():
     """Auto-detect Claude for Mac version from the app bundle."""
     try:
@@ -177,10 +212,30 @@ def main():
     parser.add_argument("--repo", default=DEFAULT_REPO)
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--app-version", default=None)
+    parser.add_argument("--no-upgrade", action="store_true",
+                        help="Skip the brew upgrade check")
     args = parser.parse_args()
 
     repo_path = os.path.expanduser(args.repo)
     cowork_dir = os.path.join(repo_path, "cowork")
+
+    # --- Step 0: check for a newer Claude app via brew and upgrade if available ---
+    upgrade_info = {}
+    if not args.no_upgrade:
+        installed_ver, latest_ver = get_brew_versions()
+        if installed_ver and latest_ver and installed_ver != latest_ver:
+            success, output = brew_upgrade_claude()
+            upgrade_info = {
+                "upgraded": success,
+                "from": installed_ver,
+                "to": latest_ver,
+                "output": output,
+            }
+            if not success:
+                sys.stderr.write(f"brew upgrade failed: {output}\n")
+        elif installed_ver:
+            upgrade_info = {"upgraded": False, "installed": installed_ver, "latest": latest_ver}
+
     app_version = args.app_version or detect_app_version()
 
     # --- Find most recent session ---
@@ -230,7 +285,7 @@ def main():
     if args.dry_run:
         print(json.dumps({"status": "dry_run", "message": "Dry run — no files written",
                           "model": model, "app_version": app_version,
-                          "cowork_version": cowork_version}))
+                          "cowork_version": cowork_version, "upgrade": upgrade_info}))
         return
 
     os.makedirs(cowork_dir, exist_ok=True)
@@ -251,6 +306,7 @@ def main():
             "message": "Nothing changed",
             "model": model, "app_version": app_version, "cowork_version": cowork_version,
             "prompt_hash": new_hashes["system_prompt"], "date": date_str,
+            "upgrade": upgrade_info,
         }))
         return
 
@@ -295,6 +351,7 @@ def main():
         "changes": changes,
         "diffs": diffs,
         "date": date_str,
+        "upgrade": upgrade_info,
     }))
 
 

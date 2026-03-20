@@ -25,16 +25,24 @@ The script handles macOS automatically. For Windows, the user will need to run i
 
 ## Step-by-step workflow
 
+### Step 0: Check for app updates (automatic)
+
+The script checks `brew info --cask claude` and upgrades the Claude app if a newer version is available before doing anything else. The result is included in the JSON output under `"upgrade"`:
+
+```json
+{ "upgraded": true, "from": "1.1.7464", "to": "1.2.0000" }
+```
+
+Pass `--no-upgrade` to skip the brew check (e.g., if not on macOS or brew isn't set up).
+
 ### Step 1: Run the extraction script
 
 ```bash
-python3 skills/cowork-prompt-tracker/scripts/extract_prompt.py \
+python3 ~/.claude/skills/cowork-prompt-tracker/scripts/extract_prompt.py \
   --repo ~/github/claude-prompts
 ```
 
-The app version is auto-detected from `/Applications/Claude.app/Contents/Info.plist` and `Contents/Resources/claude-ssh/version.txt`. Pass `--app-version "x.x.x (hash)"` to override.
-
-The script outputs JSON. Parse it to get `status`, `full_diff`, `diff_added`, `diff_removed`, `model`, `cowork_version`, `app_version`, `commit_hash`, `previous_hash`, and `prompt_hash`.
+The script outputs JSON. Parse it to get `status`, `full_diff`, `diff_added`, `diff_removed`, `model`, `cowork_version`, `commit_hash`, `previous_hash`, `prompt_hash`, and `upgrade`.
 
 If `status == "no_change"`: tell the user nothing changed and show the current hash.
 If `status == "error"`: show the error message and stop.
