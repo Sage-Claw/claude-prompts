@@ -135,7 +135,6 @@ def write_slash_commands(data, path, date_str, model, cowork_version, app_versio
     commands = sorted(data.get("slashCommands", []))
     lines = frontmatter(date_str, model, cowork_version, app_version,
                         extra=f"count: {len(commands)}\n")
-    lines += f"# Cowork Slash Commands\n\n"
     for cmd in commands:
         lines += f"- `{cmd}`\n"
     with open(path, "w") as f:
@@ -151,7 +150,6 @@ def write_mcp_tools(data, path, date_str, model, cowork_version, app_version):
     content_hash = sha16("\n".join(stable_keys))
     lines = frontmatter(date_str, model, cowork_version, app_version,
                         extra=f"count: {len(tools)}\n")
-    lines += f"# Cowork Enabled MCP Tools\n\n"
     for key in sorted(tools.keys()):
         lines += f"- `{key}`\n"
     with open(path, "w") as f:
@@ -164,7 +162,6 @@ def write_egress_domains(data, path, date_str, model, cowork_version, app_versio
     content_hash = sha16("\n".join(domains))
     lines = frontmatter(date_str, model, cowork_version, app_version,
                         extra=f"count: {len(domains)}\n")
-    lines += f"# Cowork Egress Allowed Domains\n\n"
     for d in domains:
         lines += f"- `{d}`\n"
 

@@ -1,9 +1,8 @@
 ---
 extracted: 2026-03-19
-model: claude-sonnet-4-6
+app-version: 1.1.7464 (2809b60)
 cowork-version: 0.2.2
-app-version: 1.1.7464 (2809b6)
-app-released: 2026-03-18T16:41:46.000Z
+model: claude-sonnet-4-6
 prompt-hash: 13143ab16902caca
 source-session: local_eb7e94ca-cdef-404c-a643-e24114e333a6
 ---
@@ -15,8 +14,7 @@ source-session: local_eb7e94ca-cdef-404c-a643-e24114e333a6
 | Extracted | 2026-03-19 |
 | Model | `claude-sonnet-4-6` |
 | Cowork plugin version | `v0.2.2` |
-| Claude for Mac | `1.1.7464 (2809b6)` |
-| App released | `2026-03-18T16:41:46.000Z` |
+| Claude for Mac | `1.1.7464 (2809b60)` |
 | Prompt hash | `13143ab16902caca` |
 | Source session | `local_eb7e94ca-cdef-404c-a643-e24114e333a6` |
 
