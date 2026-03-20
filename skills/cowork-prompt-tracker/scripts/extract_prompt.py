@@ -133,21 +133,11 @@ def write_system_prompt(data, path, date_str, model, cowork_version, app_version
 
 def write_slash_commands(data, path, date_str, model, cowork_version, app_version):
     commands = sorted(data.get("slashCommands", []))
-    # Group by prefix
-    groups = {}
-    for cmd in commands:
-        prefix = cmd.split(":")[0] if ":" in cmd else "built-in"
-        groups.setdefault(prefix, []).append(cmd)
-
     lines = frontmatter(date_str, model, cowork_version, app_version,
                         extra=f"count: {len(commands)}\n")
-    lines += f"# Cowork Slash Commands\n\n{len(commands)} commands available.\n"
-    for prefix in sorted(groups):
-        cmds = sorted(groups[prefix])
-        lines += f"\n## {prefix} ({len(cmds)})\n\n"
-        for cmd in cmds:
-            lines += f"- `{cmd}`\n"
-
+    lines += f"# Cowork Slash Commands\n\n"
+    for cmd in commands:
+        lines += f"- `{cmd}`\n"
     with open(path, "w") as f:
         f.write(lines)
     return sha16("\n".join(commands))
@@ -155,32 +145,15 @@ def write_slash_commands(data, path, date_str, model, cowork_version, app_versio
 
 def write_mcp_tools(data, path, date_str, model, cowork_version, app_version):
     tools = data.get("enabledMcpTools", {})
-    # Strip session-specific local hashes for stable comparison
     stable_keys = sorted(
         re.sub(r"-[a-f0-9]{32}$", "-{hash}", k) for k in tools.keys()
     )
     content_hash = sha16("\n".join(stable_keys))
-
-    # Group by server prefix
-    groups = {}
-    for key in sorted(tools.keys()):
-        # local:server:tool or server:tool
-        parts = key.split(":")
-        server = parts[1] if key.startswith("local:") else parts[0]
-        label = "local" if key.startswith("local:") else server
-        groups.setdefault(label, []).append(key)
-
     lines = frontmatter(date_str, model, cowork_version, app_version,
                         extra=f"count: {len(tools)}\n")
-    lines += f"# Cowork Enabled MCP Tools\n\n{len(tools)} tools enabled.\n"
-    for server in sorted(groups):
-        server_tools = sorted(groups[server])
-        lines += f"\n## {server} ({len(server_tools)})\n\n"
-        for t in server_tools:
-            # Normalize local hash for display
-            display = re.sub(r"-[a-f0-9]{{32}}$", "-{{hash}}", t)
-            lines += f"- `{t}`\n"
-
+    lines += f"# Cowork Enabled MCP Tools\n\n"
+    for key in sorted(tools.keys()):
+        lines += f"- `{key}`\n"
     with open(path, "w") as f:
         f.write(lines)
     return content_hash
@@ -189,10 +162,9 @@ def write_mcp_tools(data, path, date_str, model, cowork_version, app_version):
 def write_egress_domains(data, path, date_str, model, cowork_version, app_version):
     domains = sorted(data.get("egressAllowedDomains", []))
     content_hash = sha16("\n".join(domains))
-
     lines = frontmatter(date_str, model, cowork_version, app_version,
                         extra=f"count: {len(domains)}\n")
-    lines += f"# Cowork Egress Allowed Domains\n\n{len(domains)} domains.\n\n"
+    lines += f"# Cowork Egress Allowed Domains\n\n"
     for d in domains:
         lines += f"- `{d}`\n"
 
