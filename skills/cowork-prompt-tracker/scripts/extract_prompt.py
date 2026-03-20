@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Extract Cowork system prompt from local session files and commit to repo.
+"""Extract Cowork session data from local session files and commit to repo.
+
+Tracks: system prompt, slash commands, MCP tools, egress domains.
 
 Usage:
     python extract_prompt.py [--repo REPO_PATH] [--dry-run] [--app-version VERSION]
@@ -10,7 +12,6 @@ Usage:
 Output (JSON to stdout):
     {
         "status": "updated" | "no_change" | "error",
-        "output_path": str,
         "model": str,
         "cowork_version": str | null,
         "app_version": str | null,
@@ -18,9 +19,8 @@ Output (JSON to stdout):
         "previous_hash": str | null,
         "commit_hash": str | null,
         "commit_msg": str | null,
-        "diff_added": int,
-        "diff_removed": int,
-        "full_diff": str,
+        "changes": { "system_prompt": bool, "slash_commands": bool, "mcp_tools": bool, "egress_domains": bool },
+        "diffs": { "system_prompt": str, "slash_commands": str, "mcp_tools": str, "egress_domains": str },
         "date": str,
         "message": str
     }
@@ -53,7 +53,6 @@ def detect_app_version():
         version = info.get("CFBundleShortVersionString") or info.get("CFBundleVersion")
         if not version:
             return None
-        # Get short build hash from version.txt
         version_txt = os.path.join(CLAUDE_APP, "Contents", "Resources", "claude-ssh", "version.txt")
         if os.path.exists(version_txt):
             with open(version_txt) as f:
@@ -66,13 +65,11 @@ def detect_app_version():
 
 
 def find_sessions(base=SESSIONS_BASE):
-    """Find all local session JSON files (local_{uuid}.json pattern)."""
     pattern = os.path.join(base, "*", "*", "local_*.json")
     return glob.glob(pattern)
 
 
 def get_cowork_version(session_dir):
-    """Get cowork-plugin-management version from the session's plugin cache."""
     pattern = os.path.join(
         session_dir, "cowork_plugins", "cache", "*",
         "cowork-plugin-management", "*", ".claude-plugin", "plugin.json"
@@ -82,193 +79,254 @@ def get_cowork_version(session_dir):
         for i, p in enumerate(parts):
             if p == "cowork-plugin-management" and i + 1 < len(parts):
                 candidate = parts[i + 1]
-                # Validate looks like a semver
                 if re.match(r"^\d+\.\d+", candidate):
                     return candidate
     return None
 
 
-def hash_prompt(prompt):
-    return hashlib.sha256(prompt.encode()).hexdigest()[:16]
+def sha16(text):
+    return hashlib.sha256(text.encode()).hexdigest()[:16]
 
 
-def read_previous_hash(output_path):
-    if not os.path.exists(output_path):
+def read_frontmatter_field(path, field):
+    if not os.path.exists(path):
         return None
-    with open(output_path) as f:
+    with open(path) as f:
         content = f.read()
-    m = re.search(r"prompt-hash:\s*([a-f0-9]+)", content)
-    return m.group(1) if m else None
+    m = re.search(rf"^{field}:\s*(.+)$", content, re.MULTILINE)
+    return m.group(1).strip() if m else None
 
 
-def run_git(args, cwd, check=False):
-    return subprocess.run(
-        ["git"] + args, cwd=cwd,
-        capture_output=True, text=True, check=check
+def run_git(args, cwd):
+    return subprocess.run(["git"] + args, cwd=cwd, capture_output=True, text=True)
+
+
+def frontmatter(date_str, model, cowork_version, app_version, extra=""):
+    av = f"app-version: {app_version}\n" if app_version else ""
+    return f"---\nextracted: {date_str}\napp-version: {app_version or 'unknown'}\ncowork-version: {cowork_version or 'unknown'}\nmodel: {model}\n{extra}---\n\n"
+
+
+# ── Writers ────────────────────────────────────────────────────────────────────
+
+def write_system_prompt(data, path, date_str, model, cowork_version, app_version):
+    system_prompt = data["systemPrompt"]
+    session_id = data.get("sessionId", "unknown")
+    prompt_hash = sha16(system_prompt)
+    version_label = f"v{cowork_version}" if cowork_version else model
+    app_row = f"| Claude for Mac | `{app_version}` |\n" if app_version else ""
+    content = (
+        frontmatter(date_str, model, cowork_version, app_version,
+                    extra=f"prompt-hash: {prompt_hash}\nsource-session: {session_id}\n")
+        + f"# Cowork System Prompt\n\n"
+        + f"| Field | Value |\n|---|---|\n"
+        + f"| Extracted | {date_str} |\n"
+        + f"| Model | `{model}` |\n"
+        + f"| Cowork plugin version | `{version_label}` |\n"
+        + app_row
+        + f"| Prompt hash | `{prompt_hash}` |\n"
+        + f"| Source session | `{session_id}` |\n\n---\n\n```\n{system_prompt}\n```\n"
     )
+    with open(path, "w") as f:
+        f.write(content)
+    return prompt_hash
 
+
+def write_slash_commands(data, path, date_str, model, cowork_version, app_version):
+    commands = sorted(data.get("slashCommands", []))
+    # Group by prefix
+    groups = {}
+    for cmd in commands:
+        prefix = cmd.split(":")[0] if ":" in cmd else "built-in"
+        groups.setdefault(prefix, []).append(cmd)
+
+    lines = frontmatter(date_str, model, cowork_version, app_version,
+                        extra=f"count: {len(commands)}\n")
+    lines += f"# Cowork Slash Commands\n\n{len(commands)} commands available.\n"
+    for prefix in sorted(groups):
+        cmds = sorted(groups[prefix])
+        lines += f"\n## {prefix} ({len(cmds)})\n\n"
+        for cmd in cmds:
+            lines += f"- `{cmd}`\n"
+
+    with open(path, "w") as f:
+        f.write(lines)
+    return sha16("\n".join(commands))
+
+
+def write_mcp_tools(data, path, date_str, model, cowork_version, app_version):
+    tools = data.get("enabledMcpTools", {})
+    # Strip session-specific local hashes for stable comparison
+    stable_keys = sorted(
+        re.sub(r"-[a-f0-9]{32}$", "-{hash}", k) for k in tools.keys()
+    )
+    content_hash = sha16("\n".join(stable_keys))
+
+    # Group by server prefix
+    groups = {}
+    for key in sorted(tools.keys()):
+        # local:server:tool or server:tool
+        parts = key.split(":")
+        server = parts[1] if key.startswith("local:") else parts[0]
+        label = "local" if key.startswith("local:") else server
+        groups.setdefault(label, []).append(key)
+
+    lines = frontmatter(date_str, model, cowork_version, app_version,
+                        extra=f"count: {len(tools)}\n")
+    lines += f"# Cowork Enabled MCP Tools\n\n{len(tools)} tools enabled.\n"
+    for server in sorted(groups):
+        server_tools = sorted(groups[server])
+        lines += f"\n## {server} ({len(server_tools)})\n\n"
+        for t in server_tools:
+            # Normalize local hash for display
+            display = re.sub(r"-[a-f0-9]{{32}}$", "-{{hash}}", t)
+            lines += f"- `{t}`\n"
+
+    with open(path, "w") as f:
+        f.write(lines)
+    return content_hash
+
+
+def write_egress_domains(data, path, date_str, model, cowork_version, app_version):
+    domains = sorted(data.get("egressAllowedDomains", []))
+    content_hash = sha16("\n".join(domains))
+
+    lines = frontmatter(date_str, model, cowork_version, app_version,
+                        extra=f"count: {len(domains)}\n")
+    lines += f"# Cowork Egress Allowed Domains\n\n{len(domains)} domains.\n\n"
+    for d in domains:
+        lines += f"- `{d}`\n"
+
+    with open(path, "w") as f:
+        f.write(lines)
+    return content_hash
+
+
+# ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--repo", default=DEFAULT_REPO)
     parser.add_argument("--dry-run", action="store_true")
-    parser.add_argument("--app-version", default=None,
-                        help="Claude for Mac app version (e.g. '1.1.7464 (2809b6)')")
+    parser.add_argument("--app-version", default=None)
     args = parser.parse_args()
 
     repo_path = os.path.expanduser(args.repo)
-    output_path = os.path.join(repo_path, "cowork", "system-prompt.md")
+    cowork_dir = os.path.join(repo_path, "cowork")
     app_version = args.app_version or detect_app_version()
 
-    # --- Find & load sessions ---
+    # --- Find most recent session ---
     sessions = find_sessions()
     if not sessions:
-        result = {"status": "error", "message": "No session files found at " + SESSIONS_BASE}
-        print(json.dumps(result))
+        print(json.dumps({"status": "error", "message": "No session files found at " + SESSIONS_BASE}))
         sys.exit(1)
 
     loaded = []
-    for path in sessions:
+    for p in sessions:
         try:
-            with open(path) as f:
-                data = json.load(f)
-            if "systemPrompt" in data:
-                loaded.append((data, path))
+            with open(p) as f:
+                d = json.load(f)
+            if "systemPrompt" in d:
+                loaded.append((d, p))
         except Exception as e:
-            sys.stderr.write(f"Skipping {path}: {e}\n")
+            sys.stderr.write(f"Skipping {p}: {e}\n")
 
     if not loaded:
-        result = {"status": "error", "message": "No sessions with systemPrompt found"}
-        print(json.dumps(result))
+        print(json.dumps({"status": "error", "message": "No sessions with systemPrompt found"}))
         sys.exit(1)
 
-    # Most recent by lastActivityAt
     loaded.sort(key=lambda x: x[0].get("lastActivityAt", 0), reverse=True)
-    data, path = loaded[0]
+    data, session_path = loaded[0]
 
-    system_prompt = data["systemPrompt"]
     model = data.get("model", "unknown")
-    session_id = data.get("sessionId", "unknown")
-    session_dir = os.path.dirname(path)
+    session_dir = os.path.dirname(session_path)
     cowork_version = get_cowork_version(session_dir)
-    prompt_hash = hash_prompt(system_prompt)
     date_str = datetime.now().strftime("%Y-%m-%d")
-    previous_hash = read_previous_hash(output_path)
 
-    if previous_hash == prompt_hash:
-        result = {
-            "status": "no_change",
-            "message": f"System prompt unchanged (hash: {prompt_hash})",
-            "prompt_hash": prompt_hash,
-            "model": model,
-            "cowork_version": cowork_version,
-            "app_version": app_version,
-            "output_path": output_path,
-            "date": date_str,
-        }
-        print(json.dumps(result))
-        return
+    # File paths
+    files = {
+        "system_prompt":  os.path.join(cowork_dir, "system-prompt.md"),
+        "slash_commands": os.path.join(cowork_dir, "slash-commands.md"),
+        "mcp_tools":      os.path.join(cowork_dir, "mcp-tools.md"),
+        "egress_domains": os.path.join(cowork_dir, "egress-domains.md"),
+    }
 
-    # --- Write the prompt file ---
-    version_label = f"v{cowork_version}" if cowork_version else model
-    app_version_line = f"app-version: {app_version}\n" if app_version else ""
-    app_version_row = f"| Claude for Mac | `{app_version}` |\n" if app_version else ""
-    content = f"""---
-extracted: {date_str}
-model: {model}
-cowork-version: {cowork_version or "unknown"}
-{app_version_line}prompt-hash: {prompt_hash}
-source-session: {session_id}
----
-
-# Cowork System Prompt
-
-| Field | Value |
-|---|---|
-| Extracted | {date_str} |
-| Model | `{model}` |
-| Cowork plugin version | `{version_label}` |
-{app_version_row}| Prompt hash | `{prompt_hash}` |
-| Source session | `{session_id}` |
-
----
-
-```
-{system_prompt}
-```
-"""
-
-    if not args.dry_run:
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
-        with open(output_path, "w") as f:
-            f.write(content)
-
-    # --- Diff ---
-    diff_result = run_git(["diff", "cowork/system-prompt.md"], cwd=repo_path)
-    full_diff = diff_result.stdout
-
-    # Count changed lines (exclude file headers)
-    added = sum(1 for l in full_diff.splitlines()
-                if l.startswith("+") and not l.startswith("+++"))
-    removed = sum(1 for l in full_diff.splitlines()
-                  if l.startswith("-") and not l.startswith("---"))
+    # Read previous hashes
+    prev_hashes = {
+        "system_prompt":  read_frontmatter_field(files["system_prompt"], "prompt-hash"),
+        "slash_commands": read_frontmatter_field(files["slash_commands"], "content-hash"),
+        "mcp_tools":      read_frontmatter_field(files["mcp_tools"], "content-hash"),
+        "egress_domains": read_frontmatter_field(files["egress_domains"], "content-hash"),
+    }
 
     if args.dry_run:
-        result = {
-            "status": "dry_run",
-            "message": "Would write and commit (dry run)",
-            "output_path": output_path,
-            "model": model,
-            "cowork_version": cowork_version,
-            "prompt_hash": prompt_hash,
-            "previous_hash": previous_hash,
-            "diff_added": added,
-            "diff_removed": removed,
-            "full_diff": full_diff,
-            "date": date_str,
-        }
-        print(json.dumps(result))
+        print(json.dumps({"status": "dry_run", "message": "Dry run — no files written",
+                          "model": model, "app_version": app_version,
+                          "cowork_version": cowork_version}))
         return
 
-    # --- Git commit ---
-    run_git(["add", "cowork/system-prompt.md"], cwd=repo_path)
+    os.makedirs(cowork_dir, exist_ok=True)
 
-    is_first = not run_git(["log", "--oneline", "-1"], cwd=repo_path).stdout.strip()
-    if is_first or previous_hash is None:
-        commit_msg = f"chore(cowork): add initial system prompt [{version_label}]"
+    # Write all files and collect new hashes
+    new_hashes = {}
+    new_hashes["system_prompt"]  = write_system_prompt(data, files["system_prompt"], date_str, model, cowork_version, app_version)
+    new_hashes["slash_commands"] = write_slash_commands(data, files["slash_commands"], date_str, model, cowork_version, app_version)
+    new_hashes["mcp_tools"]      = write_mcp_tools(data, files["mcp_tools"], date_str, model, cowork_version, app_version)
+    new_hashes["egress_domains"] = write_egress_domains(data, files["egress_domains"], date_str, model, cowork_version, app_version)
+
+    # Detect what changed
+    changes = {k: prev_hashes[k] != new_hashes[k] for k in new_hashes}
+
+    if not any(changes.values()):
+        print(json.dumps({
+            "status": "no_change",
+            "message": "Nothing changed",
+            "model": model, "app_version": app_version, "cowork_version": cowork_version,
+            "prompt_hash": new_hashes["system_prompt"], "date": date_str,
+        }))
+        return
+
+    # Stage changed files
+    file_map = {
+        "system_prompt":  "cowork/system-prompt.md",
+        "slash_commands": "cowork/slash-commands.md",
+        "mcp_tools":      "cowork/mcp-tools.md",
+        "egress_domains": "cowork/egress-domains.md",
+    }
+    diffs = {}
+    for key, git_path in file_map.items():
+        diffs[key] = run_git(["diff", git_path], cwd=repo_path).stdout
+        if changes[key]:
+            run_git(["add", git_path], cwd=repo_path)
+
+    version_label = f"v{cowork_version}" if cowork_version else model
+    changed_labels = [k.replace("_", "-") for k, v in changes.items() if v]
+    is_first = prev_hashes["system_prompt"] is None
+    if is_first:
+        commit_msg = f"chore(cowork): initial capture [{version_label}]"
     else:
-        commit_msg = f"chore(cowork): update system prompt [{version_label}] ({prompt_hash[:8]})"
+        commit_msg = f"chore(cowork): update {', '.join(changed_labels)} [{version_label}]"
 
     commit_result = run_git(["commit", "-m", commit_msg], cwd=repo_path)
     if commit_result.returncode != 0:
-        result = {
-            "status": "error",
-            "message": f"git commit failed: {commit_result.stderr.strip()}",
-        }
-        print(json.dumps(result))
+        print(json.dumps({"status": "error", "message": f"git commit failed: {commit_result.stderr.strip()}"}))
         sys.exit(1)
 
-    # Get commit hash
-    log_result = run_git(["log", "--oneline", "-1"], cwd=repo_path)
-    commit_hash = log_result.stdout.split()[0] if log_result.stdout else "unknown"
+    commit_hash = run_git(["log", "--oneline", "-1"], cwd=repo_path).stdout.split()[0]
 
-    result = {
+    print(json.dumps({
         "status": "updated",
-        "message": f"Committed system prompt update [{version_label}]",
-        "output_path": output_path,
+        "message": commit_msg,
         "model": model,
         "cowork_version": cowork_version,
         "app_version": app_version,
-        "prompt_hash": prompt_hash,
-        "previous_hash": previous_hash,
+        "prompt_hash": new_hashes["system_prompt"],
+        "previous_hash": prev_hashes["system_prompt"],
         "commit_hash": commit_hash,
         "commit_msg": commit_msg,
-        "diff_added": added,
-        "diff_removed": removed,
-        "full_diff": full_diff,
+        "changes": changes,
+        "diffs": diffs,
         "date": date_str,
-    }
-    print(json.dumps(result))
+    }))
 
 
 if __name__ == "__main__":
