@@ -2,6 +2,33 @@
 
 ---
 
+## 2026-03-19 — v1.0.0 — Historical backfill
+
+**Published:** `2025-05-22T16:57:18.061Z`
+**Git head:** `7313027bbf`
+**Format:** JavaScript bundle (`cli.js`) — not a binary SEA
+**Prompt hash:** `36f812d8a82673b7`
+
+### Summary
+
+Retroactive capture of the Claude Code 1.0.0 prompt. This was the initial GA release on npm. Unlike later versions (2.x+) which ship as Node.js SEA binaries, 1.0.0 is a plain JavaScript bundle. The system prompt lives in two named functions: `j70` (identity) and `WS` (main instructions), plus `y70` (environment template).
+
+### Sections captured
+
+- **Identity** — "You are {{...}}, Anthropic's official CLI for Claude."
+- **System Prompt** — Monolithic instructions block covering: security refusals, tone/conciseness, proactiveness, code conventions, task workflow, tool usage policy
+- **Environment (template)** — Runtime env block with working dir, git status, platform, date, model
+
+### Notable content in v1.0.0
+
+- Explicit security refusals for malicious code baked into the main prompt (later moved to model training)
+- Hard limit: "answer concisely with fewer than 4 lines" — very strict verbosity cap
+- `# Code style` section: "DO NOT ADD ***ANY*** COMMENTS unless asked"
+- No separate "Executing Actions with Care" or "Output Efficiency" sections — these were added later
+- Tool usage policy: batch parallel tool calls in a single message
+
+---
+
 ## 2026-03-19 — v2.1.80 — Initial capture
 
 **Commit:** `7442ee9`
