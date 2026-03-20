@@ -8,6 +8,7 @@
 **Prompt hash:** `13143ab16902caca`
 **Model:** `claude-sonnet-4-6`
 **Cowork plugin version:** `0.2.2`
+**Claude for Mac:** `1.1.7464 (2809b6)` (released 2026-03-18)
 
 ### Summary
 
