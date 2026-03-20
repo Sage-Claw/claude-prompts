@@ -254,13 +254,11 @@ def main():
 
     files = {
         "system_prompt": os.path.join(out_dir, "system-prompt.md"),
-        "settings":      os.path.join(out_dir, "settings.md"),
         "plugins":       os.path.join(out_dir, "plugins.md"),
     }
 
     prev_hashes = {
         "system_prompt": read_frontmatter_field(files["system_prompt"], "prompt-hash"),
-        "settings":      read_frontmatter_field(files["settings"], "content-hash"),
         "plugins":       read_frontmatter_field(files["plugins"], "content-hash"),
     }
 
@@ -275,7 +273,6 @@ def main():
     sections = extract_system_prompt(binary_path) if binary_path else {}
     new_hashes = {
         "system_prompt": write_system_prompt(sections, files["system_prompt"], date_str, version, build_time),
-        "settings":      write_settings(files["settings"], date_str, version, build_time),
         "plugins":       write_plugins(files["plugins"], date_str, version, build_time),
     }
 
@@ -289,7 +286,6 @@ def main():
     # Collect diffs and stage
     file_map = {
         "system_prompt": "claude-code/system-prompt.md",
-        "settings":      "claude-code/settings.md",
         "plugins":       "claude-code/plugins.md",
     }
     diffs = {}

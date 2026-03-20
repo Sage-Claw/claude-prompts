@@ -1,18 +1,18 @@
 ---
 name: claude-code-tracker
-description: Extract and version-track the Claude Code CLI system prompt, settings, and plugins. Use this skill when the user wants to capture or update Claude Code prompt data in their claude-prompts repo, check if Claude Code's system prompt has changed after an update, commit a new version, or update the changelog. Trigger on any mention of "claude code prompt", "claude code version", "track claude code", "update claude-code repo", or "new version of claude code".
+description: Extract and version-track the Claude Code CLI system prompt and plugins. Use this skill when the user wants to capture or update Claude Code prompt data in their claude-prompts repo, check if Claude Code's system prompt has changed after an update, commit a new version, or update the changelog. Trigger on any mention of "claude code prompt", "claude code version", "track claude code", "update claude-code repo", or "new version of claude code".
 ---
 
 # Claude Code Tracker
 
-Extracts the Claude Code system prompt (from the installed binary), settings, and installed plugins, commits them to the `claude-prompts` repo, and maintains a changelog.
+Extracts the Claude Code system prompt (from the installed binary) and installed plugins, commits them to the `claude-prompts` repo, and maintains a changelog.
 
 ## What this skill does
 
 1. Gets the installed version via `claude --version`
 2. Finds the binary at `~/.local/share/claude/versions/{version}`
 3. Extracts system prompt sections from the binary (static JS template literals)
-4. Snapshots `~/.claude/settings.json` and installed plugins from `~/.claude/plugins/cache/`
+4. Snapshots installed plugins from `~/.claude/plugins/cache/`
 5. Hashes each to detect changes since the last commit
 6. Commits changed files with a descriptive message
 7. Reads the diff and writes a changelog entry to `claude-code/CHANGELOG.md`
@@ -55,7 +55,6 @@ Parse the JSON output: check `status`, `changes`, `diffs`, `version`, `build_tim
 Read `diffs` from the output. For each changed file, summarize what changed:
 
 **system-prompt**: What instructions were added, removed, or reworded? Note section names.
-**settings**: Model change? New hooks? Plugin enable/disable?
 **plugins**: Added or removed plugins?
 
 ### Step 3: Update the changelog
@@ -93,7 +92,6 @@ git -C ~/github/claude-prompts commit -m "docs(claude-code): update changelog [v
 | Source | Path |
 |---|---|
 | Binary | `~/.local/share/claude/versions/{version}` |
-| Settings | `~/.claude/settings.json` |
 | Plugin cache | `~/.claude/plugins/cache/{marketplace}/{plugin-name}/` |
 | Session history | `~/.claude/projects/{slug}/{session-id}.jsonl` |
 
