@@ -6,8 +6,6 @@ model: claude-sonnet-4-6
 count: 22
 ---
 
-# Cowork Egress Allowed Domains
-
 - `*.anthropic.com`
 - `*.claude.com`
 - `anthropic.com`

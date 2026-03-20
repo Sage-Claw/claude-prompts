@@ -6,8 +6,6 @@ model: claude-sonnet-4-6
 count: 5
 ---
 
-# Cowork Enabled MCP Tools
-
 - `filesystem:directory_tree`
 - `filesystem:list_allowed_directories`
 - `filesystem:list_directory`

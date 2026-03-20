@@ -6,8 +6,6 @@ model: claude-sonnet-4-6
 count: 30
 ---
 
-# Cowork Slash Commands
-
 - `anthropic-skills:docx`
 - `anthropic-skills:pdf`
 - `anthropic-skills:pptx`
