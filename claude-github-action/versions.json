@@ -1,0 +1,1853 @@
+[
+  {
+    "tag": "beta",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "e149da6a1bbde546",
+        "lines": 897
+      },
+      "action.yml": {
+        "hash": "951b20a06381c4a9",
+        "lines": 299
+      }
+    }
+  },
+  {
+    "tag": "v0",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "e149da6a1bbde546",
+        "lines": 897
+      },
+      "action.yml": {
+        "hash": "951b20a06381c4a9",
+        "lines": 299
+      }
+    }
+  },
+  {
+    "tag": "v0.0.1",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "7d19dfa4332946b3",
+        "lines": 637
+      },
+      "action.yml": {
+        "hash": "c9beecb8cdcf617c",
+        "lines": 167
+      }
+    }
+  },
+  {
+    "tag": "v0.0.2",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "7d19dfa4332946b3",
+        "lines": 637
+      },
+      "action.yml": {
+        "hash": "ee942a78c42ff831",
+        "lines": 167
+      }
+    }
+  },
+  {
+    "tag": "v0.0.3",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "7d19dfa4332946b3",
+        "lines": 637
+      },
+      "action.yml": {
+        "hash": "3ae1e03315c676cf",
+        "lines": 167
+      }
+    }
+  },
+  {
+    "tag": "v0.0.4",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "d7acc6840a7e2e72",
+        "lines": 638
+      },
+      "action.yml": {
+        "hash": "3ae1e03315c676cf",
+        "lines": 167
+      }
+    }
+  },
+  {
+    "tag": "v0.0.5",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "d7acc6840a7e2e72",
+        "lines": 638
+      },
+      "action.yml": {
+        "hash": "f7de30c5c8d72b16",
+        "lines": 170
+      }
+    }
+  },
+  {
+    "tag": "v0.0.6",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "d7acc6840a7e2e72",
+        "lines": 638
+      },
+      "action.yml": {
+        "hash": "904feaf16da9b916",
+        "lines": 170
+      }
+    }
+  },
+  {
+    "tag": "v0.0.7",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "d7acc6840a7e2e72",
+        "lines": 638
+      },
+      "action.yml": {
+        "hash": "ae72494c7a5df0ad",
+        "lines": 169
+      }
+    }
+  },
+  {
+    "tag": "v0.0.8",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "6c44fea7e4055512",
+        "lines": 659
+      },
+      "action.yml": {
+        "hash": "4374a73b566e12f1",
+        "lines": 169
+      }
+    }
+  },
+  {
+    "tag": "v0.0.9",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "6c44fea7e4055512",
+        "lines": 659
+      },
+      "action.yml": {
+        "hash": "2c7f727378ae0251",
+        "lines": 169
+      }
+    }
+  },
+  {
+    "tag": "v0.0.10",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "ece914045c9ecaa3",
+        "lines": 677
+      },
+      "action.yml": {
+        "hash": "15b538efcad9306d",
+        "lines": 178
+      }
+    }
+  },
+  {
+    "tag": "v0.0.11",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "217c71384a5f7cc6",
+        "lines": 682
+      },
+      "action.yml": {
+        "hash": "15b538efcad9306d",
+        "lines": 178
+      }
+    }
+  },
+  {
+    "tag": "v0.0.12",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "217c71384a5f7cc6",
+        "lines": 682
+      },
+      "action.yml": {
+        "hash": "15b538efcad9306d",
+        "lines": 178
+      }
+    }
+  },
+  {
+    "tag": "v0.0.13",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "54d9f49843310012",
+        "lines": 652
+      },
+      "action.yml": {
+        "hash": "a5b742648d98352b",
+        "lines": 186
+      }
+    }
+  },
+  {
+    "tag": "v0.0.14",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "b7b104a7b1459fef",
+        "lines": 656
+      },
+      "action.yml": {
+        "hash": "8212135e33bcc426",
+        "lines": 186
+      }
+    }
+  },
+  {
+    "tag": "v0.0.15",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "b7b104a7b1459fef",
+        "lines": 656
+      },
+      "action.yml": {
+        "hash": "b361ae16fbef4b6b",
+        "lines": 186
+      }
+    }
+  },
+  {
+    "tag": "v0.0.16",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "b7b104a7b1459fef",
+        "lines": 656
+      },
+      "action.yml": {
+        "hash": "3be56062826ef8a9",
+        "lines": 191
+      }
+    }
+  },
+  {
+    "tag": "v0.0.17",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "b7b104a7b1459fef",
+        "lines": 656
+      },
+      "action.yml": {
+        "hash": "04d968bb0f7ee054",
+        "lines": 192
+      }
+    }
+  },
+  {
+    "tag": "v0.0.18",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "0c45ff169c30c93d",
+        "lines": 657
+      },
+      "action.yml": {
+        "hash": "bc7a0bb0c89dafc8",
+        "lines": 192
+      }
+    }
+  },
+  {
+    "tag": "v0.0.19",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "292f69419e45d718",
+        "lines": 660
+      },
+      "action.yml": {
+        "hash": "6555e61dddfb25b8",
+        "lines": 192
+      }
+    }
+  },
+  {
+    "tag": "v0.0.20",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "292f69419e45d718",
+        "lines": 660
+      },
+      "action.yml": {
+        "hash": "122c3d3860ff4d09",
+        "lines": 192
+      }
+    }
+  },
+  {
+    "tag": "v0.0.21",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "292f69419e45d718",
+        "lines": 660
+      },
+      "action.yml": {
+        "hash": "c796e868dc71552c",
+        "lines": 192
+      }
+    }
+  },
+  {
+    "tag": "v0.0.22",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "292f69419e45d718",
+        "lines": 660
+      },
+      "action.yml": {
+        "hash": "f8a38c39f98d5ec9",
+        "lines": 192
+      }
+    }
+  },
+  {
+    "tag": "v0.0.23",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "292f69419e45d718",
+        "lines": 660
+      },
+      "action.yml": {
+        "hash": "2e7a699afd44ad43",
+        "lines": 192
+      }
+    }
+  },
+  {
+    "tag": "v0.0.24",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "292f69419e45d718",
+        "lines": 660
+      },
+      "action.yml": {
+        "hash": "40727307ffad4cc4",
+        "lines": 192
+      }
+    }
+  },
+  {
+    "tag": "v0.0.25",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "8a9750729b55d79f",
+        "lines": 682
+      },
+      "action.yml": {
+        "hash": "fb434f68756f6289",
+        "lines": 201
+      }
+    }
+  },
+  {
+    "tag": "v0.0.26",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "8a9750729b55d79f",
+        "lines": 682
+      },
+      "action.yml": {
+        "hash": "bc6f1be417dd45d7",
+        "lines": 202
+      }
+    }
+  },
+  {
+    "tag": "v0.0.27",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "8a9750729b55d79f",
+        "lines": 682
+      },
+      "action.yml": {
+        "hash": "0a852e9f6c2daa9e",
+        "lines": 208
+      }
+    }
+  },
+  {
+    "tag": "v0.0.28",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "8a9750729b55d79f",
+        "lines": 682
+      },
+      "action.yml": {
+        "hash": "a75ab2f65614bb19",
+        "lines": 220
+      }
+    }
+  },
+  {
+    "tag": "v0.0.29",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "fec057f0255e7356",
+        "lines": 698
+      },
+      "action.yml": {
+        "hash": "6bd196566e26052c",
+        "lines": 226
+      }
+    }
+  },
+  {
+    "tag": "v0.0.30",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "fec057f0255e7356",
+        "lines": 698
+      },
+      "action.yml": {
+        "hash": "8f80c6db2489fb97",
+        "lines": 231
+      }
+    }
+  },
+  {
+    "tag": "v0.0.31",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4aa07c427a194334",
+        "lines": 781
+      },
+      "action.yml": {
+        "hash": "7ad973739f842584",
+        "lines": 237
+      }
+    }
+  },
+  {
+    "tag": "v0.0.32",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4aa07c427a194334",
+        "lines": 781
+      },
+      "action.yml": {
+        "hash": "65b8ab43912a24b4",
+        "lines": 237
+      }
+    }
+  },
+  {
+    "tag": "v0.0.33",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4aa07c427a194334",
+        "lines": 781
+      },
+      "action.yml": {
+        "hash": "05f722855c5219ea",
+        "lines": 245
+      }
+    }
+  },
+  {
+    "tag": "v0.0.34",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4aa07c427a194334",
+        "lines": 781
+      },
+      "action.yml": {
+        "hash": "6516d759179d7f83",
+        "lines": 281
+      }
+    }
+  },
+  {
+    "tag": "v0.0.35",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4aa07c427a194334",
+        "lines": 781
+      },
+      "action.yml": {
+        "hash": "464f034f25c0c9eb",
+        "lines": 292
+      }
+    }
+  },
+  {
+    "tag": "v0.0.36",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4aa07c427a194334",
+        "lines": 781
+      },
+      "action.yml": {
+        "hash": "464f034f25c0c9eb",
+        "lines": 292
+      }
+    }
+  },
+  {
+    "tag": "v0.0.37",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4aa07c427a194334",
+        "lines": 781
+      },
+      "action.yml": {
+        "hash": "464f034f25c0c9eb",
+        "lines": 292
+      }
+    }
+  },
+  {
+    "tag": "v0.0.38",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4aa07c427a194334",
+        "lines": 781
+      },
+      "action.yml": {
+        "hash": "34ec2d15189c40d3",
+        "lines": 292
+      }
+    }
+  },
+  {
+    "tag": "v0.0.39",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4aa07c427a194334",
+        "lines": 781
+      },
+      "action.yml": {
+        "hash": "c9001cfa87d2e42f",
+        "lines": 292
+      }
+    }
+  },
+  {
+    "tag": "v0.0.40",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "2afaa3a4f1e1caf2",
+        "lines": 780
+      }
+    }
+  },
+  {
+    "tag": "v0.0.41",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "cd0ab3c0c51d3e36",
+        "lines": 847
+      },
+      "action.yml": {
+        "hash": "9ef42d5add7bb17e",
+        "lines": 298
+      }
+    }
+  },
+  {
+    "tag": "v0.0.42",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "bfab8baa3098dad2",
+        "lines": 847
+      },
+      "action.yml": {
+        "hash": "36e32b0c451013db",
+        "lines": 298
+      }
+    }
+  },
+  {
+    "tag": "v0.0.43",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "bfab8baa3098dad2",
+        "lines": 847
+      },
+      "action.yml": {
+        "hash": "7ff3dc107ff6e2c1",
+        "lines": 296
+      }
+    }
+  },
+  {
+    "tag": "v0.0.44",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "bfab8baa3098dad2",
+        "lines": 847
+      },
+      "action.yml": {
+        "hash": "7ff3dc107ff6e2c1",
+        "lines": 296
+      }
+    }
+  },
+  {
+    "tag": "v0.0.45",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "3028511dd3bbceea",
+        "lines": 874
+      },
+      "action.yml": {
+        "hash": "d3ba9cf94d474a29",
+        "lines": 290
+      }
+    }
+  },
+  {
+    "tag": "v0.0.46",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "3028511dd3bbceea",
+        "lines": 874
+      },
+      "action.yml": {
+        "hash": "c7200eb551183c5f",
+        "lines": 290
+      }
+    }
+  },
+  {
+    "tag": "v0.0.47",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "3028511dd3bbceea",
+        "lines": 874
+      },
+      "action.yml": {
+        "hash": "c7200eb551183c5f",
+        "lines": 290
+      }
+    }
+  },
+  {
+    "tag": "v0.0.48",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "3028511dd3bbceea",
+        "lines": 874
+      },
+      "action.yml": {
+        "hash": "c7200eb551183c5f",
+        "lines": 290
+      }
+    }
+  },
+  {
+    "tag": "v0.0.49",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "572ae024c613e852",
+        "lines": 882
+      },
+      "action.yml": {
+        "hash": "d95cc5aec434ef8e",
+        "lines": 290
+      }
+    }
+  },
+  {
+    "tag": "v0.0.50",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "572ae024c613e852",
+        "lines": 882
+      },
+      "action.yml": {
+        "hash": "5d31aab1ad1197fa",
+        "lines": 290
+      }
+    }
+  },
+  {
+    "tag": "v0.0.51",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "572ae024c613e852",
+        "lines": 882
+      },
+      "action.yml": {
+        "hash": "e960640857a56ff2",
+        "lines": 290
+      }
+    }
+  },
+  {
+    "tag": "v0.0.52",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "a4d36b8520c61ba5",
+        "lines": 899
+      },
+      "action.yml": {
+        "hash": "7dad32cf4e02ab31",
+        "lines": 291
+      }
+    }
+  },
+  {
+    "tag": "v0.0.53",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4a0385588df44316",
+        "lines": 897
+      },
+      "action.yml": {
+        "hash": "0fea53db889a4464",
+        "lines": 291
+      }
+    }
+  },
+  {
+    "tag": "v0.0.54",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4a0385588df44316",
+        "lines": 897
+      },
+      "action.yml": {
+        "hash": "0fea53db889a4464",
+        "lines": 291
+      }
+    }
+  },
+  {
+    "tag": "v0.0.55",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4a0385588df44316",
+        "lines": 897
+      },
+      "action.yml": {
+        "hash": "2a2d967a1bdff92d",
+        "lines": 296
+      }
+    }
+  },
+  {
+    "tag": "v0.0.56",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4a0385588df44316",
+        "lines": 897
+      },
+      "action.yml": {
+        "hash": "55de8488aacee423",
+        "lines": 296
+      }
+    }
+  },
+  {
+    "tag": "v0.0.57",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4a0385588df44316",
+        "lines": 897
+      },
+      "action.yml": {
+        "hash": "6223f605bc200f70",
+        "lines": 296
+      }
+    }
+  },
+  {
+    "tag": "v0.0.58",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4a0385588df44316",
+        "lines": 897
+      },
+      "action.yml": {
+        "hash": "663d5d24e2d9b8dd",
+        "lines": 296
+      }
+    }
+  },
+  {
+    "tag": "v0.0.59",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "4a0385588df44316",
+        "lines": 897
+      },
+      "action.yml": {
+        "hash": "c78006432a5043c8",
+        "lines": 297
+      }
+    }
+  },
+  {
+    "tag": "v0.0.60",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "e149da6a1bbde546",
+        "lines": 897
+      },
+      "action.yml": {
+        "hash": "23722320c705f25a",
+        "lines": 299
+      }
+    }
+  },
+  {
+    "tag": "v0.0.61",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "e149da6a1bbde546",
+        "lines": 897
+      },
+      "action.yml": {
+        "hash": "130da2b5c54faf93",
+        "lines": 299
+      }
+    }
+  },
+  {
+    "tag": "v0.0.62",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "e149da6a1bbde546",
+        "lines": 897
+      },
+      "action.yml": {
+        "hash": "2a0b88680f71d2a0",
+        "lines": 299
+      }
+    }
+  },
+  {
+    "tag": "v0.0.63",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "e149da6a1bbde546",
+        "lines": 897
+      },
+      "action.yml": {
+        "hash": "951b20a06381c4a9",
+        "lines": 299
+      }
+    }
+  },
+  {
+    "tag": "v1",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "3ba1244947f0b24d",
+        "lines": 991
+      },
+      "action.yml": {
+        "hash": "14f344e90f3a154b",
+        "lines": 311
+      }
+    }
+  },
+  {
+    "tag": "v1.0.0",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "8adde571ca550c5d",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "ddcc2ae58bd5ac5a",
+        "lines": 282
+      }
+    }
+  },
+  {
+    "tag": "v1.0.1",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "8adde571ca550c5d",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "6fae89420a062122",
+        "lines": 277
+      }
+    }
+  },
+  {
+    "tag": "v1.0.2",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "8adde571ca550c5d",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "edd259a75959c67c",
+        "lines": 277
+      }
+    }
+  },
+  {
+    "tag": "v1.0.3",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "3d79435951116262",
+        "lines": 797
+      },
+      "action.yml": {
+        "hash": "372d1e6a61dd2694",
+        "lines": 283
+      }
+    }
+  },
+  {
+    "tag": "v1.0.4",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "3d79435951116262",
+        "lines": 797
+      },
+      "action.yml": {
+        "hash": "46dd2fb592b4ec4f",
+        "lines": 283
+      }
+    }
+  },
+  {
+    "tag": "v1.0.5",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "3d79435951116262",
+        "lines": 797
+      },
+      "action.yml": {
+        "hash": "8c5c3706581f6bda",
+        "lines": 293
+      }
+    }
+  },
+  {
+    "tag": "v1.0.6",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "3d4f233232f6edb8",
+        "lines": 798
+      },
+      "action.yml": {
+        "hash": "e00e1d02d0d0e22e",
+        "lines": 298
+      }
+    }
+  },
+  {
+    "tag": "v1.0.7",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "3d4f233232f6edb8",
+        "lines": 798
+      },
+      "action.yml": {
+        "hash": "ab2d5a5338729ff2",
+        "lines": 299
+      }
+    }
+  },
+  {
+    "tag": "v1.0.8",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "3d4f233232f6edb8",
+        "lines": 798
+      },
+      "action.yml": {
+        "hash": "892bc011ab6d51de",
+        "lines": 299
+      }
+    }
+  },
+  {
+    "tag": "v1.0.9",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "ccb959d4c308453a",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "c467654c765dcda2",
+        "lines": 299
+      }
+    }
+  },
+  {
+    "tag": "v1.0.10",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "a72fdfaa01919cef",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "bd6bd8e900a623bd",
+        "lines": 299
+      }
+    }
+  },
+  {
+    "tag": "v1.0.11",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "a72fdfaa01919cef",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "1a8219037cf8fb02",
+        "lines": 299
+      }
+    }
+  },
+  {
+    "tag": "v1.0.12",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "a72fdfaa01919cef",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "ff85b62961cff035",
+        "lines": 299
+      }
+    }
+  },
+  {
+    "tag": "v1.0.13",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "a72fdfaa01919cef",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "59391be1b455933e",
+        "lines": 299
+      }
+    }
+  },
+  {
+    "tag": "v1.0.14",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "fb3cc0008cc381df",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "ccc3f142d3a1cbcc",
+        "lines": 299
+      }
+    }
+  },
+  {
+    "tag": "v1.0.15",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "fb3cc0008cc381df",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "47940817c63cf19e",
+        "lines": 309
+      }
+    }
+  },
+  {
+    "tag": "v1.0.16",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "fb3cc0008cc381df",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "be14da8873e09f6c",
+        "lines": 314
+      }
+    }
+  },
+  {
+    "tag": "v1.0.17",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "fb3cc0008cc381df",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "b1bfe80025b70c96",
+        "lines": 314
+      }
+    }
+  },
+  {
+    "tag": "v1.0.18",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "fb3cc0008cc381df",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "f689af9c47ec13c3",
+        "lines": 317
+      }
+    }
+  },
+  {
+    "tag": "v1.0.19",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "fb3cc0008cc381df",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "2d2341ac45e46e7d",
+        "lines": 330
+      }
+    }
+  },
+  {
+    "tag": "v1.0.20",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "fb3cc0008cc381df",
+        "lines": 799
+      }
+    }
+  },
+  {
+    "tag": "v1.0.21",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "fb3cc0008cc381df",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "061c69042cd86c86",
+        "lines": 332
+      }
+    }
+  },
+  {
+    "tag": "v1.0.22",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "fb3cc0008cc381df",
+        "lines": 799
+      },
+      "action.yml": {
+        "hash": "0cbdb94ad424556f",
+        "lines": 332
+      }
+    }
+  },
+  {
+    "tag": "v1.0.23",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "bdd32f57e89fb188",
+        "lines": 915
+      },
+      "action.yml": {
+        "hash": "a72e199bfbb7ff12",
+        "lines": 336
+      }
+    }
+  },
+  {
+    "tag": "v1.0.24",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "bdd32f57e89fb188",
+        "lines": 915
+      },
+      "action.yml": {
+        "hash": "ef60d05a760c18a3",
+        "lines": 339
+      }
+    }
+  },
+  {
+    "tag": "v1.0.25",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "bdd32f57e89fb188",
+        "lines": 915
+      },
+      "action.yml": {
+        "hash": "ef60d05a760c18a3",
+        "lines": 339
+      }
+    }
+  },
+  {
+    "tag": "v1.0.26",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "bdd32f57e89fb188",
+        "lines": 915
+      },
+      "action.yml": {
+        "hash": "e334ffe7b5933ee0",
+        "lines": 341
+      }
+    }
+  },
+  {
+    "tag": "v1.0.27",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "bdd32f57e89fb188",
+        "lines": 915
+      },
+      "action.yml": {
+        "hash": "2aa4458d143b4594",
+        "lines": 341
+      }
+    }
+  },
+  {
+    "tag": "v1.0.28",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "9a1d6621b9f315f0",
+        "lines": 358
+      }
+    }
+  },
+  {
+    "tag": "v1.0.29",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "9bc94afb8b18d117",
+        "lines": 363
+      }
+    }
+  },
+  {
+    "tag": "v1.0.30",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "85795dc526a150d5",
+        "lines": 363
+      }
+    }
+  },
+  {
+    "tag": "v1.0.31",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "34c30ef72e25cf11",
+        "lines": 363
+      }
+    }
+  },
+  {
+    "tag": "v1.0.32",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "46f8375843f5ab8b",
+        "lines": 363
+      }
+    }
+  },
+  {
+    "tag": "v1.0.33",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "93ad05f358131e08",
+        "lines": 363
+      }
+    }
+  },
+  {
+    "tag": "v1.0.34",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "7d4c7f96979ccf58",
+        "lines": 363
+      }
+    }
+  },
+  {
+    "tag": "v1.0.35",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "7a151e67561da116",
+        "lines": 363
+      }
+    }
+  },
+  {
+    "tag": "v1.0.36",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "7a151e67561da116",
+        "lines": 363
+      }
+    }
+  },
+  {
+    "tag": "v1.0.37",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "bd86d649f44d43e1",
+        "lines": 373
+      }
+    }
+  },
+  {
+    "tag": "v1.0.38",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "f259dbfdf64fb6c3",
+        "lines": 373
+      }
+    }
+  },
+  {
+    "tag": "v1.0.39",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "858e6196f0c1c2c4",
+        "lines": 373
+      }
+    }
+  },
+  {
+    "tag": "v1.0.40",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "baea771e21718666",
+        "lines": 373
+      }
+    }
+  },
+  {
+    "tag": "v1.0.41",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "a7b52eb335867f5a",
+        "lines": 373
+      }
+    }
+  },
+  {
+    "tag": "v1.0.42",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "776873653b55bc10",
+        "lines": 385
+      }
+    }
+  },
+  {
+    "tag": "v1.0.43",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "936f8007cf061614",
+        "lines": 385
+      }
+    }
+  },
+  {
+    "tag": "v1.0.44",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "07580769b454b172",
+        "lines": 990
+      },
+      "action.yml": {
+        "hash": "99417b4c8e702845",
+        "lines": 289
+      }
+    }
+  },
+  {
+    "tag": "v1.0.45",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "99417b4c8e702845",
+        "lines": 289
+      }
+    }
+  },
+  {
+    "tag": "v1.0.46",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "99417b4c8e702845",
+        "lines": 289
+      }
+    }
+  },
+  {
+    "tag": "v1.0.47",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "42070f27dc0e7305",
+        "lines": 289
+      }
+    }
+  },
+  {
+    "tag": "v1.0.48",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "42070f27dc0e7305",
+        "lines": 289
+      }
+    }
+  },
+  {
+    "tag": "v1.0.49",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "0c3a5df9f4300ca3",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "42070f27dc0e7305",
+        "lines": 289
+      }
+    }
+  },
+  {
+    "tag": "v1.0.50",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "0c3a5df9f4300ca3",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "42070f27dc0e7305",
+        "lines": 289
+      }
+    }
+  },
+  {
+    "tag": "v1.0.51",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "0c3a5df9f4300ca3",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "42070f27dc0e7305",
+        "lines": 289
+      }
+    }
+  },
+  {
+    "tag": "v1.0.52",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "42070f27dc0e7305",
+        "lines": 289
+      }
+    }
+  },
+  {
+    "tag": "v1.0.53",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "ff906aad108dd16d",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.54",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "ff906aad108dd16d",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.55",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "ff906aad108dd16d",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.56",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "ff906aad108dd16d",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.57",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "ff906aad108dd16d",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.58",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "ff906aad108dd16d",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.59",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "ff906aad108dd16d",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.60",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "ff906aad108dd16d",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.61",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "ff906aad108dd16d",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.62",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "ff906aad108dd16d",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.63",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "ff906aad108dd16d",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.64",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "ff906aad108dd16d",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.65",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "728fa17ec7f2091c",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.66",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "728fa17ec7f2091c",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.67",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "728fa17ec7f2091c",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.68",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "728fa17ec7f2091c",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.69",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "728fa17ec7f2091c",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.70",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "728fa17ec7f2091c",
+        "lines": 294
+      }
+    }
+  },
+  {
+    "tag": "v1.0.71",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "67afea05a50c122f",
+        "lines": 996
+      },
+      "action.yml": {
+        "hash": "14f344e90f3a154b",
+        "lines": 311
+      }
+    }
+  },
+  {
+    "tag": "v1.0.72",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "a745ac2f6b20ac31",
+        "lines": 994
+      },
+      "action.yml": {
+        "hash": "14f344e90f3a154b",
+        "lines": 311
+      }
+    }
+  },
+  {
+    "tag": "v1.0.73",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "a745ac2f6b20ac31",
+        "lines": 994
+      },
+      "action.yml": {
+        "hash": "14f344e90f3a154b",
+        "lines": 311
+      }
+    }
+  },
+  {
+    "tag": "v1.0.74",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "3ba1244947f0b24d",
+        "lines": 991
+      },
+      "action.yml": {
+        "hash": "14f344e90f3a154b",
+        "lines": 311
+      }
+    }
+  },
+  {
+    "tag": "v1.0.75",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "3ba1244947f0b24d",
+        "lines": 991
+      },
+      "action.yml": {
+        "hash": "14f344e90f3a154b",
+        "lines": 311
+      }
+    }
+  },
+  {
+    "tag": "v1.0.76",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "3ba1244947f0b24d",
+        "lines": 991
+      },
+      "action.yml": {
+        "hash": "14f344e90f3a154b",
+        "lines": 311
+      }
+    }
+  }
+]
