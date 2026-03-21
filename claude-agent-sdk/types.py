@@ -366,6 +366,9 @@ class HookMatcher:
     # A list of Python functions with function signature HookCallback
     hooks: list[HookCallback] = field(default_factory=list)
 
+    # Timeout in seconds for all hooks in this matcher (default: 60)
+    timeout: int | None = None
+
 
 # MCP Server config
 class McpStdioServerConfig(TypedDict):
@@ -454,6 +457,16 @@ ContentBlock = TextBlock | ThinkingBlock | ToolUseBlock | ToolResultBlock
 
 
 # Message types
+AssistantMessageError = Literal[
+    "authentication_failed",
+    "billing_error",
+    "rate_limit",
+    "invalid_request",
+    "server_error",
+    "unknown",
+]
+
+
 @dataclass
 class UserMessage:
     """User message."""
@@ -469,6 +482,7 @@ class AssistantMessage:
     content: list[ContentBlock]
     model: str
     parent_tool_use_id: str | None = None
+    error: AssistantMessageError | None = None
 
 
 @dataclass
