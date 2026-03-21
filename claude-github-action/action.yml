@@ -192,9 +192,6 @@ runs:
       if: steps.prepare.outputs.contains_trigger == 'true'
       shell: bash
       run: |
-        # Install Claude Code globally
-        bun install -g @anthropic-ai/claude-code@1.0.57
-
         # Run the base-action
         cd ${GITHUB_ACTION_PATH}/base-action
         bun install
@@ -219,6 +216,7 @@ runs:
         ANTHROPIC_MODEL: ${{ inputs.model || inputs.anthropic_model }}
         GITHUB_TOKEN: ${{ steps.prepare.outputs.GITHUB_TOKEN }}
         NODE_VERSION: ${{ env.NODE_VERSION }}
+        DETAILED_PERMISSION_MESSAGES: "1"
 
         # Provider configuration
         ANTHROPIC_API_KEY: ${{ inputs.anthropic_api_key }}
