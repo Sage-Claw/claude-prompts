@@ -1,23 +1,32 @@
 ---
 extracted: 2026-03-20
-version: 1.0.51
+version: 1.0.52
 publish-date: 
-git-head: 8588bea4a0
+git-head: bd83a1ee40
 format: js-bundle
-prompt-hash: c3ba9de0f2a306a5
+prompt-hash: 2398feb7cf76b826
 ---
 
-# Claude Code System Prompt — v1.0.51
+# Claude Code System Prompt — v1.0.52
 
-> Extracted from `@anthropic-ai/claude-code@1.0.51` · Published: `` · Git: `8588bea4a0`
-> Prompt hash: `c3ba9de0f2a306a5`
+> Extracted from `@anthropic-ai/claude-code@1.0.52` · Published: `` · Git: `bd83a1ee40`
+> Prompt hash: `2398feb7cf76b826`
 > Template expressions shown as `{{...}}`.
 
 ---
 
 ## Identity
 
-You are {{...}}, Anthropic's official CLI for Claude.
+
+</example>
+
+Important:
+- NEVER update the git config
+- DO NOT use the ${CZ.name} or ${KJ} tools
+- Return the PR URL when you're done, so the user can see it
+
+# Other common operations
+- View comments on a Github PR: gh api repos/foo/bar/pulls/123/comments`}var Um=()=>!1,Yt0=()=>null;function Ct0(){return`You are ${Q2}, Anthropic's official CLI for Claude.`}var Wt0=
 
 ---
 
