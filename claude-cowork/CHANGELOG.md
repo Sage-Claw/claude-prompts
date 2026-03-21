@@ -2,6 +2,21 @@
 
 ---
 
+## 2026-03-21 — v0.2.2 (model: claude-sonnet-4-6) — app update only
+
+**Commit:** `dcd2aa4`
+**Changes:** metadata only (app version bump)
+**Prompt hash:** `13143ab16902caca` (unchanged)
+
+### Summary
+No prompt content changes. The Claude for Mac app updated from `1.1.7464 (2809b60)` to `1.1.7714 (3bd6f69)`. The metadata headers in `slash-commands.md`, `mcp-tools.md`, and `egress-domains.md` were updated to reflect the new app version.
+
+### Key changes
+- App version: `1.1.7464 (2809b60)` → `1.1.7714 (3bd6f69)`
+- System prompt, slash commands, MCP tools, egress domains: **no content changes**
+
+---
+
 ## 2026-03-21 — v0.2.2 / 2026-03-21 re-capture
 
 **Commit:** `e7b7c5b`
