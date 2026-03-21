@@ -492,6 +492,7 @@ class ResultMessage:
     total_cost_usd: float | None = None
     usage: dict[str, Any] | None = None
     result: str | None = None
+    structured_output: Any = None
 
 
 @dataclass
@@ -521,6 +522,7 @@ class ClaudeAgentOptions:
     max_budget_usd: float | None = None
     disallowed_tools: list[str] = field(default_factory=list)
     model: str | None = None
+    fallback_model: str | None = None
     permission_prompt_tool_name: str | None = None
     cwd: str | Path | None = None
     cli_path: str | Path | None = None
@@ -557,6 +559,9 @@ class ClaudeAgentOptions:
     plugins: list[SdkPluginConfig] = field(default_factory=list)
     # Max tokens for thinking blocks
     max_thinking_tokens: int | None = None
+    # Output format for structured outputs (matches Messages API structure)
+    # Example: {"type": "json_schema", "schema": {"type": "object", "properties": {...}}}
+    output_format: dict[str, Any] | None = None
 
 
 # SDK Control Protocol
