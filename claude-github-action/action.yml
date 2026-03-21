@@ -61,10 +61,6 @@ inputs:
     description: "Additional arguments to pass directly to Claude CLI"
     required: false
     default: ""
-  mcp_config:
-    description: "Additional MCP configuration (JSON string) that merges with built-in GitHub MCP servers"
-    required: false
-    default: ""
   additional_permissions:
     description: "Additional GitHub permissions to request (e.g., 'actions: read')"
     required: false
@@ -146,7 +142,6 @@ runs:
         USE_COMMIT_SIGNING: ${{ inputs.use_commit_signing }}
         ADDITIONAL_PERMISSIONS: ${{ inputs.additional_permissions }}
         CLAUDE_ARGS: ${{ inputs.claude_args }}
-        MCP_CONFIG: ${{ inputs.mcp_config }}
         ALL_INPUTS: ${{ toJson(inputs) }}
 
     - name: Install Base Action Dependencies
@@ -162,7 +157,7 @@ runs:
         # Install Claude Code if no custom executable is provided
         if [ -z "${{ inputs.path_to_claude_code_executable }}" ]; then
           echo "Installing Claude Code..."
-          curl -fsSL https://claude.ai/install.sh | bash -s 1.0.90
+          curl -fsSL https://claude.ai/install.sh | bash -s 1.0.92
           echo "$HOME/.local/bin" >> "$GITHUB_PATH"
         else
           echo "Using custom Claude Code executable: ${{ inputs.path_to_claude_code_executable }}"
