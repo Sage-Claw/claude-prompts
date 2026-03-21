@@ -587,23 +587,28 @@ ${formattedBody}
 ${formattedComments || "No comments"}
 </comments>
 
-<review_comments>
-${eventData.isPR ? formattedReviewComments || "No review comments" : ""}
-</review_comments>
+${
+  eventData.isPR
+    ? `<review_comments>
+${formattedReviewComments || "No review comments"}
+</review_comments>`
+    : ""
+}
 
-<changed_files>
-${eventData.isPR ? formattedChangedFiles || "No files changed" : ""}
-</changed_files>${imagesInfo}
+${
+  eventData.isPR
+    ? `<changed_files>
+${formattedChangedFiles || "No files changed"}
+</changed_files>`
+    : ""
+}${imagesInfo}
 
 <event_type>${eventType}</event_type>
 <is_pr>${eventData.isPR ? "true" : "false"}</is_pr>
 <trigger_context>${triggerContext}</trigger_context>
 <repository>${context.repository}</repository>
-${
-  eventData.isPR
-    ? `<pr_number>${eventData.prNumber}</pr_number>`
-    : `<issue_number>${eventData.issueNumber ?? ""}</issue_number>`
-}
+${eventData.isPR && eventData.prNumber ? `<pr_number>${eventData.prNumber}</pr_number>` : ""}
+${!eventData.isPR && eventData.issueNumber ? `<issue_number>${eventData.issueNumber}</issue_number>` : ""}
 <claude_comment_id>${context.claudeCommentId}</claude_comment_id>
 <trigger_username>${context.triggerUsername ?? "Unknown"}</trigger_username>
 <trigger_display_name>${githubData.triggerDisplayName ?? context.triggerUsername ?? "Unknown"}</trigger_display_name>
@@ -801,15 +806,18 @@ export async function createPrompt(
   context: ParsedGitHubContext,
 ) {
   try {
-    // Tag mode requires a comment ID
-    if (mode.name === "tag" && !modeContext.commentId) {
-      throw new Error("Tag mode requires a comment ID for prompt generation");
+    // Prepare the context for prompt generation
+    let claudeCommentId: string = "";
+    if (mode.name === "tag") {
+      if (!modeContext.commentId) {
+        throw new Error("Tag mode requires a comment ID for prompt generation");
+      }
+      claudeCommentId = modeContext.commentId.toString();
     }
 
-    // Prepare the context for prompt generation
     const preparedContext = prepareContext(
       context,
-      modeContext.commentId?.toString() || "",
+      claudeCommentId,
       modeContext.baseBranch,
       modeContext.claudeBranch,
     );
