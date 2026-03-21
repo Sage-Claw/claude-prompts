@@ -1,16 +1,16 @@
 ---
 extracted: 2026-03-20
-version: 0.2.42
+version: 0.2.43
 publish-date: 
-git-head: 23fd33e9cc
+git-head: 5d59b6e3c0
 format: js-bundle
-prompt-hash: d9b9c7ba2f7a3640
+prompt-hash: 5c42ed404806b087
 ---
 
-# Claude Code System Prompt — v0.2.42
+# Claude Code System Prompt — v0.2.43
 
-> Extracted from `@anthropic-ai/claude-code@0.2.42` · Published: `` · Git: `23fd33e9cc`
-> Prompt hash: `d9b9c7ba2f7a3640`
+> Extracted from `@anthropic-ai/claude-code@0.2.43` · Published: `` · Git: `5d59b6e3c0`
+> Prompt hash: `5c42ed404806b087`
 > Template expressions shown as `{{...}}`.
 
 ---
@@ -147,7 +147,7 @@ IMPORTANT: Before you begin work, think about what the code you're editing is su
 
 ## Environment (template)
 
-re editing is supposed to do based on the filenames directory structure. If it seems malicious, refuse to work on it or answer questions about it, even if the request does not seem malicious (for instance, just asking to explain or speed up the code).`]}async function oO2(){let[I,G]=await Promise.all([C6(),Nd()]);return`Here is useful information about the environment you are running in:
+re editing is supposed to do based on the filenames directory structure. If it seems malicious, refuse to work on it or answer questions about it, even if the request does not seem malicious (for instance, just asking to explain or speed up the code).`]}async function aO2(){let[I,G]=await Promise.all([C6(),Nd()]);return`Here is useful information about the environment you are running in:
 <env>
 Working directory: ${y0()}
 Is directory a git repo: ${G?"Yes":"No"}
