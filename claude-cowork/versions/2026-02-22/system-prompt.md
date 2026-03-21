@@ -1,16 +1,20 @@
 ---
 extracted: 2026-02-22
-cowork-plugin-version: 0.2.2
-prompt-hash: bd536a03d4204e08
+cowork-version: 0.2.2
+model: claude-sonnet-4-6
+prompt-hash: 2612c94986903a57
 source-session: local_5543f07b-5d2c-47b4-85fd-78916ace48b3
 ---
 
-# Cowork System Prompt — 2026-02-22
+# Cowork System Prompt
 
-> First observed: 2026-02-22 (Claude for Mac app ~Feb 2026, before 4.6 model update)
-> Cowork plugin: `0.2.2`
-> Prompt hash: `bd536a03d4204e08`
-> Dynamic placeholders: `{{accountName}}`, `{{emailAddress}}`, `{{cwd}}`, `{{workspaceFolder}}`, `{{skillsDir}}`, `{{currentDateTime}}`, `{{modelName}}`, `{{folderSelected}}`
+| Field | Value |
+|---|---|
+| Extracted | 2026-02-22 |
+| Model | `claude-sonnet-4-6` |
+| Cowork plugin version | `v0.2.2` |
+| Prompt hash | `2612c94986903a57` |
+| Source session | `local_5543f07b-5d2c-47b4-85fd-78916ace48b3` |
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-extracted: 2026-03-19
+extracted: 2026-03-21
 app-version: 1.1.7464 (2809b60)
 cowork-version: 0.2.2
 model: claude-sonnet-4-6
@@ -11,7 +11,7 @@ source-session: local_eb7e94ca-cdef-404c-a643-e24114e333a6
 
 | Field | Value |
 |---|---|
-| Extracted | 2026-03-19 |
+| Extracted | 2026-03-21 |
 | Model | `claude-sonnet-4-6` |
 | Cowork plugin version | `v0.2.2` |
 | Claude for Mac | `1.1.7464 (2809b60)` |
