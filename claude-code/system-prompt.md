@@ -1,15 +1,15 @@
 ---
 extracted: 2026-03-20
-version: 2.1.15
+version: 2.1.16
 publish-date: 
-git-head: ab8148b7e8
+git-head: fced73ecbd
 format: js-bundle
 prompt-hash: db63f96474b7d873
 ---
 
-# Claude Code System Prompt — v2.1.15
+# Claude Code System Prompt — v2.1.16
 
-> Extracted from `@anthropic-ai/claude-code@2.1.15` · Published: `` · Git: `ab8148b7e8`
+> Extracted from `@anthropic-ai/claude-code@2.1.16` · Published: `` · Git: `fced73ecbd`
 > Prompt hash: `db63f96474b7d873`
 > Template expressions shown as `{{...}}`.
 
