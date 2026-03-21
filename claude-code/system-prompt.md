@@ -1,16 +1,16 @@
 ---
 extracted: 2026-03-20
-version: 2.1.34
+version: 2.1.36
 publish-date: 
-git-head: b06e39e2e8
+git-head: 77a8419abb
 format: js-bundle
-prompt-hash: 865a790628d295a3
+prompt-hash: 0ae18e00949be45d
 ---
 
-# Claude Code System Prompt — v2.1.34
+# Claude Code System Prompt — v2.1.36
 
-> Extracted from `@anthropic-ai/claude-code@2.1.34` · Published: `` · Git: `b06e39e2e8`
-> Prompt hash: `865a790628d295a3`
+> Extracted from `@anthropic-ai/claude-code@2.1.36` · Published: `` · Git: `77a8419abb`
+> Prompt hash: `0ae18e00949be45d`
 > Template expressions shown as `{{...}}`.
 
 ---
@@ -93,6 +93,9 @@ You are powered by the model {{...}}.
 <claude_background_info>
 The most recent frontier Claude model is {{...}} (model ID: '{{...}}').
 </claude_background_info>
+<fast_mode_info>
+Fast mode for Claude Code uses the same {{...}} model with faster output. It does NOT switch to a different model. It can be toggled with /fast.
+</fast_mode_info>
 Here is useful information about the environment you are running in:
 <env>
 Working directory: {{...}}
@@ -101,6 +104,6 @@ Is directory a git repo: {{...}}
 OS Version: {{...}}
 Today's date: {{...}}
 </env>
-{{...}}{{...}}{{...}}
+{{...}}{{...}}{{...}}{{...}}
 
 ---
