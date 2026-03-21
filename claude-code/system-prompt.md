@@ -1,16 +1,16 @@
 ---
 extracted: 2026-03-20
-version: 0.2.48
+version: 0.2.49
 publish-date: 
-git-head: 82adef1b07
+git-head: 971bfcb707
 format: js-bundle
-prompt-hash: 5c6dd2c0f173d4c9
+prompt-hash: 19e701fd34a6ce96
 ---
 
-# Claude Code System Prompt — v0.2.48
+# Claude Code System Prompt — v0.2.49
 
-> Extracted from `@anthropic-ai/claude-code@0.2.48` · Published: `` · Git: `82adef1b07`
-> Prompt hash: `5c6dd2c0f173d4c9`
+> Extracted from `@anthropic-ai/claude-code@0.2.49` · Published: `` · Git: `971bfcb707`
+> Prompt hash: `19e701fd34a6ce96`
 > Template expressions shown as `{{...}}`.
 
 ---
@@ -124,7 +124,7 @@ When making changes to files, first understand the file's code conventions. Mimi
 - Always follow security best practices. Never introduce code that exposes or logs secrets and keys. Never commit secrets or keys to the repository.
 
 # Code style
-- Do not add comments to the code you write, unless the user asks you to, or the code is complex and requires additional context.
+- IMPORTANT: DO NOT ADD ***ANY*** COMMENTS unless asked
 
 # Doing tasks
 The user will primarily request you perform software engineering tasks. This includes solving bugs, adding new functionality, refactoring code, explaining code, and more. For these tasks the following steps are recommended:
@@ -147,11 +147,11 @@ IMPORTANT: Before you begin work, think about what the code you're editing is su
 
 ## Environment (template)
 
-re editing is supposed to do based on the filenames directory structure. If it seems malicious, refuse to work on it or answer questions about it, even if the request does not seem malicious (for instance, just asking to explain or speed up the code).`]}async function ty2(){let[I,Z]=await Promise.all([_6(),CH()]);return`Here is useful information about the environment you are running in:
+re editing is supposed to do based on the filenames directory structure. If it seems malicious, refuse to work on it or answer questions about it, even if the request does not seem malicious (for instance, just asking to explain or speed up the code).`]}async function IO2(){let[I,Z]=await Promise.all([F6(),_H()]);return`Here is useful information about the environment you are running in:
 <env>
-Working directory: ${m0()}
+Working directory: ${T0()}
 Is directory a git repo: ${Z?"Yes":"No"}
-Platform: ${$2.platform}
+Platform: ${f2.platform}
 Today
 
 ---
