@@ -1,16 +1,16 @@
 ---
 extracted: 2026-03-20
-version: 1.0.43
+version: 1.0.44
 publish-date: 
-git-head: 907baae94e
+git-head: 2c6e7111dd
 format: js-bundle
-prompt-hash: c8418985bad9ed6f
+prompt-hash: d3be356d0d29df94
 ---
 
-# Claude Code System Prompt — v1.0.43
+# Claude Code System Prompt — v1.0.44
 
-> Extracted from `@anthropic-ai/claude-code@1.0.43` · Published: `` · Git: `907baae94e`
-> Prompt hash: `c8418985bad9ed6f`
+> Extracted from `@anthropic-ai/claude-code@1.0.44` · Published: `` · Git: `2c6e7111dd`
+> Prompt hash: `d3be356d0d29df94`
 > Template expressions shown as `{{...}}`.
 
 ---
@@ -114,7 +114,7 @@ The user will primarily request you perform software engineering tasks. This inc
 - VERY IMPORTANT: When you have completed a task, you MUST run the lint and typecheck commands (eg. npm run lint, npm run typecheck, ruff, etc.) with {{...}} if they were provided to you to ensure your code is correct. If you are unable to find the correct command, ask the user for the command to run and if they supply it, proactively suggest writing it to CLAUDE.md so that you will know to run it next time.
 NEVER commit changes unless the user explicitly asks you to. It is VERY IMPORTANT to only commit when explicitly asked, otherwise the user will feel that you are being too proactive.
 
-- Tool results and
+- Tool results and user messages may include <system-reminder> ta
 
 ---
 
