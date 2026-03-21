@@ -81,6 +81,10 @@ inputs:
     description: "Enable commit signing using GitHub's commit signature verification. When false, Claude uses standard git commands"
     required: false
     default: "false"
+  ssh_signing_key:
+    description: "SSH private key for signing commits. When provided, git will be configured to use SSH signing. Takes precedence over use_commit_signing."
+    required: false
+    default: ""
   bot_id:
     description: "GitHub user ID to use for git operations (defaults to Claude's bot ID)"
     required: false
@@ -93,6 +97,10 @@ inputs:
     description: "Force tag mode with tracking comments for pull_request and issue events. Only applicable to pull_request (opened, synchronize, ready_for_review, reopened) and issue (opened, edited, labeled, assigned) events."
     required: false
     default: "false"
+  include_fix_links:
+    description: "Include 'Fix this' links in PR code review feedback that open Claude Code with context to fix the identified issue"
+    required: false
+    default: "true"
   path_to_claude_code_executable:
     description: "Optional path to a custom Claude Code executable. If provided, skips automatic installation and uses this executable instead. WARNING: Using an older version may cause problems if the action begins taking advantage of new Claude Code features. This input is typically not needed unless you're debugging something specific or have unique needs in your environment."
     required: false
@@ -177,9 +185,11 @@ runs:
         USE_STICKY_COMMENT: ${{ inputs.use_sticky_comment }}
         DEFAULT_WORKFLOW_TOKEN: ${{ github.token }}
         USE_COMMIT_SIGNING: ${{ inputs.use_commit_signing }}
+        SSH_SIGNING_KEY: ${{ inputs.ssh_signing_key }}
         BOT_ID: ${{ inputs.bot_id }}
         BOT_NAME: ${{ inputs.bot_name }}
         TRACK_PROGRESS: ${{ inputs.track_progress }}
+        INCLUDE_FIX_LINKS: ${{ inputs.include_fix_links }}
         ADDITIONAL_PERMISSIONS: ${{ inputs.additional_permissions }}
         CLAUDE_ARGS: ${{ inputs.claude_args }}
         ALL_INPUTS: ${{ toJson(inputs) }}
@@ -198,12 +208,13 @@ runs:
 
         # Install Claude Code if no custom executable is provided
         if [ -z "$PATH_TO_CLAUDE_CODE_EXECUTABLE" ]; then
-          CLAUDE_CODE_VERSION="2.0.74"
+          CLAUDE_CODE_VERSION="2.0.76"
           echo "Installing Claude Code v${CLAUDE_CODE_VERSION}..."
           for attempt in 1 2 3; do
             echo "Installation attempt $attempt..."
             if command -v timeout &> /dev/null; then
-              timeout 120 bash -c "curl -fsSL https://claude.ai/install.sh | bash -s -- $CLAUDE_CODE_VERSION" && break
+              # Use --foreground to kill entire process group on timeout, --kill-after to send SIGKILL if SIGTERM fails
+              timeout --foreground --kill-after=10 120 bash -c "curl -fsSL https://claude.ai/install.sh | bash -s -- $CLAUDE_CODE_VERSION" && break
             else
               curl -fsSL https://claude.ai/install.sh | bash -s -- "$CLAUDE_CODE_VERSION" && break
             fi
@@ -328,6 +339,12 @@ runs:
           cat "${{ steps.claude-code.outputs.execution_file }}" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
         fi
+
+    - name: Cleanup SSH signing key
+      if: always() && inputs.ssh_signing_key != ''
+      shell: bash
+      run: |
+        bun run ${GITHUB_ACTION_PATH}/src/entrypoints/cleanup-ssh-signing.ts
 
     - name: Revoke app token
       if: always() && inputs.github_token == '' && steps.prepare.outputs.skipped_due_to_workflow_validation_mismatch != 'true'

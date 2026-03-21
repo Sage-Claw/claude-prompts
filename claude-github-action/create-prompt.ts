@@ -21,7 +21,11 @@ import type { ParsedGitHubContext } from "../github/context";
 import type { CommonFields, PreparedContext, EventData } from "./types";
 import { GITHUB_SERVER_URL } from "../github/api/config";
 import type { Mode, ModeContext } from "../modes/types";
+import { extractUserRequest } from "../utils/extract-user-request";
 export type { CommonFields, PreparedContext } from "./types";
+
+/** Filename for the user request file, read by the SDK runner */
+const USER_REQUEST_FILENAME = "claude-user-request.txt";
 
 // Tag mode defaults - these tools are needed for tag mode to function
 const BASE_ALLOWED_TOOLS = [
@@ -734,7 +738,13 @@ ${eventData.eventName === "issue_comment" || eventData.eventName === "pull_reque
         - Reference specific code sections with file paths and line numbers${eventData.isPR ? `\n      - AFTER reading files and analyzing code, you MUST call mcp__github_comment__update_claude_comment to post your review` : ""}
       - Formulate a concise, technical, and helpful response based on the context.
       - Reference specific code with inline formatting or code blocks.
-      - Include relevant file paths and line numbers when applicable.
+      - Include relevant file paths and line numbers when applicable.${
+        eventData.isPR && context.githubContext?.inputs.includeFixLinks
+          ? `
+      - When identifying issues that could be fixed, include an inline link: [Fix this →](https://claude.ai/code?q=<URI_ENCODED_INSTRUCTIONS>&repo=${context.repository})
+        The query should be URI-encoded and include enough context for Claude Code to understand and fix the issue (file path, line numbers, branch name, what needs to change).`
+          : ""
+      }
       - ${eventData.isPR ? `IMPORTANT: Submit your review feedback by updating the Claude comment using mcp__github_comment__update_claude_comment. This will be displayed as your PR review.` : `Remember that this feedback must be posted to the GitHub comment using mcp__github_comment__update_claude_comment.`}
 
    B. For Straightforward Changes:
@@ -841,6 +851,55 @@ f. If you are unable to complete certain steps, such as running a linter or test
   return promptContent;
 }
 
+/**
+ * Extracts the user's request from the prepared context and GitHub data.
+ *
+ * This is used to send the user's actual command/request as a separate
+ * content block, enabling slash command processing in the CLI.
+ *
+ * @param context - The prepared context containing event data and trigger phrase
+ * @param githubData - The fetched GitHub data containing issue/PR body content
+ * @returns The extracted user request text (e.g., "/review-pr" or "fix this bug"),
+ *          or null for assigned/labeled events without an explicit trigger in the body
+ *
+ * @example
+ * // Comment event: "@claude /review-pr" -> returns "/review-pr"
+ * // Issue body with "@claude fix this" -> returns "fix this"
+ * // Issue assigned without @claude in body -> returns null
+ */
+function extractUserRequestFromContext(
+  context: PreparedContext,
+  githubData: FetchDataResult,
+): string | null {
+  const { eventData, triggerPhrase } = context;
+
+  // For comment events, extract from comment body
+  if (
+    "commentBody" in eventData &&
+    eventData.commentBody &&
+    (eventData.eventName === "issue_comment" ||
+      eventData.eventName === "pull_request_review_comment" ||
+      eventData.eventName === "pull_request_review")
+  ) {
+    return extractUserRequest(eventData.commentBody, triggerPhrase);
+  }
+
+  // For issue/PR events triggered by body content, extract from the body
+  if (githubData.contextData?.body) {
+    const request = extractUserRequest(
+      githubData.contextData.body,
+      triggerPhrase,
+    );
+    if (request) {
+      return request;
+    }
+  }
+
+  // For assigned/labeled events without explicit trigger in body,
+  // return null to indicate the full context should be used
+  return null;
+}
+
 export async function createPrompt(
   mode: Mode,
   modeContext: ModeContext,
@@ -888,6 +947,22 @@ export async function createPrompt(
       `${process.env.RUNNER_TEMP || "/tmp"}/claude-prompts/claude-prompt.txt`,
       promptContent,
     );
+
+    // Extract and write the user request separately for SDK multi-block messaging
+    // This allows the CLI to process slash commands (e.g., "@claude /review-pr")
+    const userRequest = extractUserRequestFromContext(
+      preparedContext,
+      githubData,
+    );
+    if (userRequest) {
+      await writeFile(
+        `${process.env.RUNNER_TEMP || "/tmp"}/claude-prompts/${USER_REQUEST_FILENAME}`,
+        userRequest,
+      );
+      console.log("===== USER REQUEST =====");
+      console.log(userRequest);
+      console.log("========================");
+    }
 
     // Set allowed tools
     const hasActionsReadPermission = false;
