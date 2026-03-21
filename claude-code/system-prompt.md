@@ -1,16 +1,16 @@
 ---
 extracted: 2026-03-20
-version: 1.0.29
+version: 1.0.30
 publish-date: 
-git-head: c6d4f62e28
+git-head: a2991a1054
 format: js-bundle
-prompt-hash: f02fc875f32afe2f
+prompt-hash: 060fa115261057f7
 ---
 
-# Claude Code System Prompt — v1.0.29
+# Claude Code System Prompt — v1.0.30
 
-> Extracted from `@anthropic-ai/claude-code@1.0.29` · Published: `` · Git: `c6d4f62e28`
-> Prompt hash: `f02fc875f32afe2f`
+> Extracted from `@anthropic-ai/claude-code@1.0.30` · Published: `` · Git: `a2991a1054`
+> Prompt hash: `060fa115261057f7`
 > Template expressions shown as `{{...}}`.
 
 ---
@@ -176,7 +176,7 @@ Here is useful information about the environment you are running in:
 <env>
 Working directory: {{...}}
 Is directory a git repo: {{...}}
-Platform: {{...}}
+{{...}}Platform: {{...}}
 OS Version: {{...}}
 Today's date: {{...}}
 </env>
