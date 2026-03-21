@@ -518,6 +518,7 @@ class ClaudeAgentOptions:
     continue_conversation: bool = False
     resume: str | None = None
     max_turns: int | None = None
+    max_budget_usd: float | None = None
     disallowed_tools: list[str] = field(default_factory=list)
     model: str | None = None
     permission_prompt_tool_name: str | None = None
@@ -554,6 +555,8 @@ class ClaudeAgentOptions:
     setting_sources: list[SettingSource] | None = None
     # Plugin configurations for custom plugins
     plugins: list[SdkPluginConfig] = field(default_factory=list)
+    # Max tokens for thinking blocks
+    max_thinking_tokens: int | None = None
 
 
 # SDK Control Protocol
