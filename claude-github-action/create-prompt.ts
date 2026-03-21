@@ -81,6 +81,7 @@ export function prepareContext(
   const eventAction = context.eventAction;
   const triggerPhrase = context.inputs.triggerPhrase || "@claude";
   const assigneeTrigger = context.inputs.assigneeTrigger;
+  const labelTrigger = context.inputs.labelTrigger;
   const customInstructions = context.inputs.customInstructions;
   const allowedTools = context.inputs.allowedTools;
   const disallowedTools = context.inputs.disallowedTools;
@@ -242,7 +243,7 @@ export function prepareContext(
       }
 
       if (eventAction === "assigned") {
-        if (!assigneeTrigger) {
+        if (!assigneeTrigger && !directPrompt) {
           throw new Error(
             "ASSIGNEE_TRIGGER is required for issue assigned event",
           );
@@ -254,7 +255,20 @@ export function prepareContext(
           issueNumber,
           baseBranch,
           claudeBranch,
-          assigneeTrigger,
+          ...(assigneeTrigger && { assigneeTrigger }),
+        };
+      } else if (eventAction === "labeled") {
+        if (!labelTrigger) {
+          throw new Error("LABEL_TRIGGER is required for issue labeled event");
+        }
+        eventData = {
+          eventName: "issues",
+          eventAction: "labeled",
+          isPR: false,
+          issueNumber,
+          baseBranch,
+          claudeBranch,
+          labelTrigger,
         };
       } else if (eventAction === "opened") {
         eventData = {
@@ -328,10 +342,17 @@ export function getEventTypeAndContext(envVars: PreparedContext): {
           eventType: "ISSUE_CREATED",
           triggerContext: `new issue with '${envVars.triggerPhrase}' in body`,
         };
+      } else if (eventData.eventAction === "labeled") {
+        return {
+          eventType: "ISSUE_LABELED",
+          triggerContext: `issue labeled with '${eventData.labelTrigger}'`,
+        };
       }
       return {
         eventType: "ISSUE_ASSIGNED",
-        triggerContext: `issue assigned to '${eventData.assigneeTrigger}'`,
+        triggerContext: eventData.assigneeTrigger
+          ? `issue assigned to '${eventData.assigneeTrigger}'`
+          : `issue assigned event`,
       };
 
     case "pull_request":
@@ -465,6 +486,7 @@ Follow these steps:
    - Analyze the pre-fetched data provided above.
    - For ISSUE_CREATED: Read the issue body to find the request after the trigger phrase.
    - For ISSUE_ASSIGNED: Read the entire issue body to understand the task.
+   - For ISSUE_LABELED: Read the entire issue body to understand the task.
 ${eventData.eventName === "issue_comment" || eventData.eventName === "pull_request_review_comment" || eventData.eventName === "pull_request_review" ? `   - For comment/review events: Your instructions are in the <trigger_comment> tag above.` : ""}
 ${context.directPrompt ? `   - DIRECT INSTRUCTION: A direct instruction was provided and is shown in the <direct_prompt> tag above. This is not from any GitHub comment but a direct instruction to execute.` : ""}
    - IMPORTANT: Only the comment/issue containing '${context.triggerPhrase}' has your instructions.
