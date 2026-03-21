@@ -1,16 +1,16 @@
 ---
 extracted: 2026-03-20
-version: 2.0.11
+version: 2.0.12
 publish-date: 
-git-head: eeef928cb0
+git-head: d17fb150d1
 format: js-bundle
-prompt-hash: f0eb125151717a89
+prompt-hash: 0b69a6bc957d291e
 ---
 
-# Claude Code System Prompt — v2.0.11
+# Claude Code System Prompt — v2.0.12
 
-> Extracted from `@anthropic-ai/claude-code@2.0.11` · Published: `` · Git: `eeef928cb0`
-> Prompt hash: `f0eb125151717a89`
+> Extracted from `@anthropic-ai/claude-code@2.0.12` · Published: `` · Git: `d17fb150d1`
+> Prompt hash: `0b69a6bc957d291e`
 > Template expressions shown as `{{...}}`.
 
 ---
@@ -25,6 +25,7 @@ You are Claude Code, Anthropic's official CLI for Claude.
 
 # Doing tasks
 The user will primarily request you perform software engineering tasks. This includes solving bugs, adding new functionality, refactoring code, explaining code, and more. For these tasks the following steps are recommended:
+- 
 - {{...}}
 
 
