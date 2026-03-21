@@ -1,0 +1,974 @@
+[
+  {
+    "version": "1.0.25",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.27",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.28",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.31",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.51",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.55",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.56",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.58",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.59",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.60",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.61",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.62",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.63",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.64",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.65",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.66",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.67",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.68",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.69",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.70",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.71",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.72",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.73",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.74",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.76",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.77",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.78",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.79",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.80",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.81",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.82",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.83",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.84",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.85",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.86",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.87",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.88",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.89",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.90",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.91",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.92",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.93",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.94",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.95",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.96",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.98",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.100",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.102",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.103",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.105",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.106",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.107",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.108",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.109",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.110",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.111",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.112",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.113",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.114",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.115",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.116",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.117",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.118",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.119",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.120",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.122",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.123",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.124",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.125",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.126",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.127",
+    "prompts": {}
+  },
+  {
+    "version": "1.0.128",
+    "prompts": {
+      "vscode-extension-context": "f86bb9b011e0f186"
+    }
+  },
+  {
+    "version": "2.0.0",
+    "prompts": {
+      "vscode-extension-context": "f86bb9b011e0f186"
+    }
+  },
+  {
+    "version": "2.0.2",
+    "prompts": {
+      "vscode-extension-context": "f86bb9b011e0f186"
+    }
+  },
+  {
+    "version": "2.0.3",
+    "prompts": {
+      "vscode-extension-context": "f86bb9b011e0f186"
+    }
+  },
+  {
+    "version": "2.0.5",
+    "prompts": {
+      "vscode-extension-context": "f86bb9b011e0f186"
+    }
+  },
+  {
+    "version": "2.0.8",
+    "prompts": {
+      "vscode-extension-context": "f86bb9b011e0f186"
+    }
+  },
+  {
+    "version": "2.0.9",
+    "prompts": {
+      "vscode-extension-context": "f86bb9b011e0f186"
+    }
+  },
+  {
+    "version": "2.0.10",
+    "prompts": {
+      "vscode-extension-context": "f86bb9b011e0f186"
+    }
+  },
+  {
+    "version": "2.0.11",
+    "prompts": {
+      "vscode-extension-context": "f86bb9b011e0f186"
+    }
+  },
+  {
+    "version": "2.0.12",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.13",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.14",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.15",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.17",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.19",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.20",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.21",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.22",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.23",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.24",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.25",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.26",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.27",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.28",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.29",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.30",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.31",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.33",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.34",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.35",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.36",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.37",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.42",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.43",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.44",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.45",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.46",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.47",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.49",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.50",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.51",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.52",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.53",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.55",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.56",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.57",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.58",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.59",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.60",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.61",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.62",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.65",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.70",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.72",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.73",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.74",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.0.75",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.0",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.1",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.3",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.4",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.5",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.6",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.7",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.9",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.11",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.15",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.16",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.17",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.19",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.20",
+    "prompts": {}
+  },
+  {
+    "version": "2.1.21",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.22",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.23",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.25",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.27",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.29",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.30",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.31",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.32",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.33",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.34",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.36",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.37",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.38",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.39",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.41",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.42",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.44",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.45",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.47",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.49",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.51",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.52",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.53",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.55",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.56",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.58",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.59",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.61",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.63",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.66",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.68",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.69",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.70",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.71",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.72",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.73",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.74",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.75",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.76",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.77",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.78",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.79",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  },
+  {
+    "version": "2.1.81",
+    "prompts": {
+      "vscode-extension-context": "3bfa08a08faa1c6f"
+    }
+  }
+]
