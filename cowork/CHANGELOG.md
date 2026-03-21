@@ -2,9 +2,22 @@
 
 ---
 
+## 2026-03-21 — v0.2.2 / 2026-03-21 re-capture
+
+**Commit:** `e7b7c5b`
+**Prompt hash:** `13143ab16902caca` (unchanged from 2026-03-15 capture)
+**Cowork plugin version:** `0.2.2`
+**Claude for Mac:** `1.1.7464 (2809b60)`
+
+### Summary
+
+Re-captured from a fresh session to establish clean version history. Prompt content identical to the 2026-03-15 capture. The `cowork/versions/` directory was created with snapshots for both historical dates.
+
+---
+
 ## 2026-03-15 — v0.2.2 / Claude for Mac 1.1.7464
 
-**Commit:** `b1e1405`
+**Commit:** `6f8b26f` (was: `b1e1405`)
 **Prompt hash:** `13143ab16902caca` (was: `bd536a03d4204e08`)
 **Cowork plugin version:** `0.2.2`
 **Claude for Mac:** `1.1.7464 (2809b6)` (released 2026-03-18)
