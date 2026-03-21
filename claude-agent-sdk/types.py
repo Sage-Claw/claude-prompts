@@ -14,6 +14,9 @@ if TYPE_CHECKING:
 # Permission modes
 PermissionMode = Literal["default", "acceptEdits", "plan", "bypassPermissions"]
 
+# SDK Beta features - see https://docs.anthropic.com/en/api/beta-headers
+SdkBeta = Literal["context-1m-2025-08-07"]
+
 # Agent definitions
 SettingSource = Literal["user", "project", "local"]
 
@@ -24,6 +27,13 @@ class SystemPromptPreset(TypedDict):
     type: Literal["preset"]
     preset: Literal["claude_code"]
     append: NotRequired[str]
+
+
+class ToolsPreset(TypedDict):
+    """Tools preset configuration."""
+
+    type: Literal["preset"]
+    preset: Literal["claude_code"]
 
 
 @dataclass
@@ -603,6 +613,7 @@ Message = UserMessage | AssistantMessage | SystemMessage | ResultMessage | Strea
 class ClaudeAgentOptions:
     """Query options for Claude SDK."""
 
+    tools: list[str] | ToolsPreset | None = None
     allowed_tools: list[str] = field(default_factory=list)
     system_prompt: str | SystemPromptPreset | None = None
     mcp_servers: dict[str, McpServerConfig] | str | Path = field(default_factory=dict)
@@ -614,6 +625,8 @@ class ClaudeAgentOptions:
     disallowed_tools: list[str] = field(default_factory=list)
     model: str | None = None
     fallback_model: str | None = None
+    # Beta features - see https://docs.anthropic.com/en/api/beta-headers
+    betas: list[SdkBeta] = field(default_factory=list)
     permission_prompt_tool_name: str | None = None
     cwd: str | Path | None = None
     cli_path: str | Path | None = None
