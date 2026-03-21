@@ -1,16 +1,16 @@
 ---
 extracted: 2026-03-20
-version: 2.0.33
+version: 2.0.34
 publish-date: 
-git-head: 52cb9e0666
+git-head: 9d0dad123f
 format: js-bundle
-prompt-hash: 6e0aa6a7009fc33c
+prompt-hash: ba45c7b3f6d7b2c0
 ---
 
-# Claude Code System Prompt — v2.0.33
+# Claude Code System Prompt — v2.0.34
 
-> Extracted from `@anthropic-ai/claude-code@2.0.33` · Published: `` · Git: `52cb9e0666`
-> Prompt hash: `6e0aa6a7009fc33c`
+> Extracted from `@anthropic-ai/claude-code@2.0.34` · Published: `` · Git: `9d0dad123f`
+> Prompt hash: `ba45c7b3f6d7b2c0`
 > Template expressions shown as `{{...}}`.
 
 ---
@@ -40,6 +40,7 @@ Prioritize technical accuracy and truthfulness over validating the user's belief
 # Doing tasks
 The user will primarily request you perform software engineering tasks. This includes solving bugs, adding new functionality, refactoring code, explaining code, and more. For these tasks the following steps are recommended:
 - 
+- {{...}}
 - {{...}}
 - Be careful not to introduce security vulnerabilities such as command injection, XSS, SQL injection, and other OWASP top 10 vulnerabilities. If you notice that you wrote insecure code, immediately fix it.
 
