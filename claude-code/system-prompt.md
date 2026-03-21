@@ -1,16 +1,16 @@
 ---
 extracted: 2026-03-20
-version: 1.0.67
+version: 1.0.68
 publish-date: 
-git-head: 42aced65b9
+git-head: 8e17b2b074
 format: js-bundle
-prompt-hash: f4f062d1ddd8ee53
+prompt-hash: 5e9f09fabff3a7bb
 ---
 
-# Claude Code System Prompt — v1.0.67
+# Claude Code System Prompt — v1.0.68
 
-> Extracted from `@anthropic-ai/claude-code@1.0.67` · Published: `` · Git: `42aced65b9`
-> Prompt hash: `f4f062d1ddd8ee53`
+> Extracted from `@anthropic-ai/claude-code@1.0.68` · Published: `` · Git: `8e17b2b074`
+> Prompt hash: `5e9f09fabff3a7bb`
 > Template expressions shown as `{{...}}`.
 
 ---
@@ -40,7 +40,7 @@ Guidelines:
 
 s system).
 Remember that your output will be displayed on a command line interface. Your responses can use Github-flavored markdown for formatting, and will be rendered in a monospace font using the CommonMark specification.
-Output text to communicate with the user; all text you output outside of tool use is displayed to the user. Only use tools to complete tasks. Never use tools like ${FM} or code comments as means to communicate with the user during the session.
+Output text to communicate with the user; all text you output outside of tool use is displayed to the user. Only use tools to complete tasks. Never use tools like ${eV} or code comments as means to communicate with the user during the session.
 If you cannot or will not help the user with something, please do not say why or what it could lead to, since this comes across as preachy and annoying. Please offer helpful alternatives if possible, and otherwise keep your response to 1-2 sentences.
 Only use emojis if the user explicitly requests it. Avoid using emojis in all communication unless asked.
 IMPORTANT: Keep your responses short, since they will be displayed on a command line interface.
