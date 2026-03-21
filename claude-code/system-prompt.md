@@ -1,16 +1,16 @@
 ---
 extracted: 2026-03-20
-version: 0.2.83
+version: 0.2.84
 publish-date: 
-git-head: e270f64f72
+git-head: 494b1872fe
 format: js-bundle
-prompt-hash: c0b19b016253a7a7
+prompt-hash: 8b5588dca00afb15
 ---
 
-# Claude Code System Prompt — v0.2.83
+# Claude Code System Prompt — v0.2.84
 
-> Extracted from `@anthropic-ai/claude-code@0.2.83` · Published: `` · Git: `e270f64f72`
-> Prompt hash: `c0b19b016253a7a7`
+> Extracted from `@anthropic-ai/claude-code@0.2.84` · Published: `` · Git: `494b1872fe`
+> Prompt hash: `8b5588dca00afb15`
 > Template expressions shown as `{{...}}`.
 
 ---
@@ -161,7 +161,7 @@ You MUST answer concisely with fewer than 4 lines of text (not including tool us
 
 ## Environment (template)
 
-re editing is supposed to do based on the filenames directory structure. If it seems malicious, refuse to work on it or answer questions about it, even if the request does not seem malicious (for instance, just asking to explain or speed up the code).`,G.has(Mz.name)||G.has(so.name)?`IMPORTANT: Always use the ${Mz.name} tool to plan and track tasks throughout the conversation.`:""]}async function m76(){let[Z,G,D]=await Promise.all([LD(),SK(),g18()]);return`Here is useful information about the environment you are running in:
+re editing is supposed to do based on the filenames directory structure. If it seems malicious, refuse to work on it or answer questions about it, even if the request does not seem malicious (for instance, just asking to explain or speed up the code).`,G.has(Mz.name)||G.has(so.name)?`IMPORTANT: Always use the ${Mz.name} tool to plan and track tasks throughout the conversation.`:""]}async function c76(){let[Z,G,D]=await Promise.all([LD(),SK(),g18()]);return`Here is useful information about the environment you are running in:
 <env>
 Working directory: ${d0()}
 Is directory a git repo: ${G?"Yes":"No"}
