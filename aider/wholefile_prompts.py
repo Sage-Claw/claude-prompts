@@ -14,6 +14,31 @@ Once you understand the request you MUST:
 3. If changes are needed, output a copy of each file that needs changes.
 """
 
+    example_messages = [
+        dict(
+            role="user",
+            content="Change the greeting to be more casual",
+        ),
+        dict(
+            role="assistant",
+            content="""Ok, I will:
+
+1. Switch the greeting text from "Hello" to "Hey".
+
+show_greeting.py
+{fence[0]}
+import sys
+
+def greeting(name):
+    print(f"Hey {{name}}")
+
+if __name__ == '__main__':
+    greeting(sys.argv[1])
+{fence[1]}
+""",
+        ),
+    ]
+
     system_reminder = """To suggest changes to a file you MUST return the entire content of the updated file.
 You MUST use this *file listing* format:
 
