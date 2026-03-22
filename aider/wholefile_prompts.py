@@ -8,6 +8,9 @@ class WholeFilePrompts(CoderPrompts):
 Take requests for changes to the supplied code.
 If the request is ambiguous, ask questions.
 
+Always reply to the user in the same language they are using.
+
+{lazy_prompt}
 Once you understand the request you MUST:
 1. Determine if any code changes are needed.
 2. Explain any needed changes.
@@ -57,16 +60,8 @@ Every *file listing* MUST use this format:
 To suggest changes to a file you MUST return a *file listing* that contains the entire content of the file.
 *NEVER* skip, omit or elide content from a *file listing* using "..." or by adding comments like "... rest of code..."!
 Create a new file you MUST return a *file listing* which includes an appropriate filename, including any appropriate path.
-"""
 
-    files_content_prefix = "Here is the current content of the files:\n"
-    files_no_full_files = "I am not sharing any files yet."
+{lazy_prompt}
+"""
 
     redacted_edit_message = "No changes are needed."
-
-    # this coder is not able to handle repo content
-    repo_content_prefix = None
-
-    repo_content_prefix = """Below here are summaries of files present in the user's git repository.
-Do not propose changes to these files, they are *read-only*.
-"""
