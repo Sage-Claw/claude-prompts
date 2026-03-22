@@ -13,7 +13,7 @@ Just show the changes needed.
 
 DO NOT show the entire updated function/file/etc!
 
-Always reply to the user in {language}.
+Always reply in the same language as the change request.
 """
 
     example_messages = []
