@@ -1,0 +1,2322 @@
+[
+  {
+    "tag": "v00.3",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.4",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.6",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.7",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v0.8.0",
+    "files": {}
+  },
+  {
+    "tag": "v00.8",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v0.8.2",
+    "files": {}
+  },
+  {
+    "tag": "v0.8.3",
+    "files": {}
+  },
+  {
+    "tag": "v0.8.4",
+    "files": {}
+  },
+  {
+    "tag": "v0.8.5",
+    "files": {}
+  },
+  {
+    "tag": "v0.8.6",
+    "files": {}
+  },
+  {
+    "tag": "v0.9.0",
+    "files": {}
+  },
+  {
+    "tag": "v00.9",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v0.9.3",
+    "files": {}
+  },
+  {
+    "tag": "v0.9.4",
+    "files": {}
+  },
+  {
+    "tag": "v0.9.5",
+    "files": {}
+  },
+  {
+    "tag": "v0.9.6",
+    "files": {}
+  },
+  {
+    "tag": "v0.9.7",
+    "files": {}
+  },
+  {
+    "tag": "v0.9.8",
+    "files": {}
+  },
+  {
+    "tag": "v0.9.9",
+    "files": {}
+  },
+  {
+    "tag": "v0.9.10",
+    "files": {}
+  },
+  {
+    "tag": "v0.9.11",
+    "files": {}
+  },
+  {
+    "tag": "v00.10",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.11",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.12",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.90",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.91",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.92",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.93",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.94",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.95",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.97",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.98",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.99",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.100",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.101",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v00.102",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.0-alpha.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.0-beta2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0-beta3",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0-beta4",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8c59ec00f6e318b0",
+        "lines": 25
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0-beta5",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "90a67cb4a1faf234",
+        "lines": 27
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0-beta6",
+    "files": {
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0-beta7",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "f4be3b3818b17df8",
+        "lines": 26
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v01.00",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bf0b02f1eab05e37",
+        "lines": 20
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "f4be3b3818b17df8",
+        "lines": 26
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "f4be3b3818b17df8",
+        "lines": 26
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "f4be3b3818b17df8",
+        "lines": 26
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.3",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "f4be3b3818b17df8",
+        "lines": 26
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.4",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "f4be3b3818b17df8",
+        "lines": 26
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.5",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "f4be3b3818b17df8",
+        "lines": 26
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.6",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "09731a5e718ba70f",
+        "lines": 41
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.7",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "09731a5e718ba70f",
+        "lines": 41
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.8",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "09731a5e718ba70f",
+        "lines": 41
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.9",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "09731a5e718ba70f",
+        "lines": 41
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.10",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "09731a5e718ba70f",
+        "lines": 41
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.11",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "09731a5e718ba70f",
+        "lines": 41
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.12",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "09731a5e718ba70f",
+        "lines": 41
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b66f5bc94efe3a21",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.13",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "0538e6862dbaac9d",
+        "lines": 41
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b198344867afb13a",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.14",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "0538e6862dbaac9d",
+        "lines": 41
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b198344867afb13a",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.15",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "0538e6862dbaac9d",
+        "lines": 41
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "b198344867afb13a",
+        "lines": 41
+      }
+    }
+  },
+  {
+    "tag": "v1.0.16",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "0538e6862dbaac9d",
+        "lines": 41
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "6ed6773f86f83771",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.17",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "0538e6862dbaac9d",
+        "lines": 41
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "6ed6773f86f83771",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.18",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "29442946de83e2e5",
+        "lines": 42
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "6ed6773f86f83771",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.19",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "29442946de83e2e5",
+        "lines": 42
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "6ed6773f86f83771",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.20",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "29442946de83e2e5",
+        "lines": 42
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "6ed6773f86f83771",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.21",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "9275d1967bb93baa",
+        "lines": 47
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "6ed6773f86f83771",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.22",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "9275d1967bb93baa",
+        "lines": 47
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "6ed6773f86f83771",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.23",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "9275d1967bb93baa",
+        "lines": 47
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "6ed6773f86f83771",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.24",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "9275d1967bb93baa",
+        "lines": 47
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "6ed6773f86f83771",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.25",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "6ed6773f86f83771",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.26",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "6ed6773f86f83771",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.27",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "6ed6773f86f83771",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.28",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "6ed6773f86f83771",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.29",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.30",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.31",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.32",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.33",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.34",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.35",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.36",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.0.37",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.1.0-alpha",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.1.0-alpha.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.1.0-alpha.2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.1.0-alpha.3",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.1.0-alpha.4",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.1.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.1.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.1.2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.1.3",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.1.4",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "2959d3a779c0db19",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.2.0-alpha2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "d56ab3450a62998b",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.2.0-rc0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "d56ab3450a62998b",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.2.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "d56ab3450a62998b",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.3.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "d56ab3450a62998b",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.3.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "8ee7c74e521d5e6d",
+        "lines": 49
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "d56ab3450a62998b",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.4.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "f43cfb2bddada55c",
+        "lines": 66
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "d56ab3450a62998b",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.4.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "f43cfb2bddada55c",
+        "lines": 66
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "d56ab3450a62998b",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.5.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "f43cfb2bddada55c",
+        "lines": 66
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "d56ab3450a62998b",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.6.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "f43cfb2bddada55c",
+        "lines": 66
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "d56ab3450a62998b",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.7.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "f43cfb2bddada55c",
+        "lines": 66
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "d56ab3450a62998b",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.8.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "4bd4e34fb0ba920a",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "0c83abfd99ef506a",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.9.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "18f7fd829b5aca69",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "0c83abfd99ef506a",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.9.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "18f7fd829b5aca69",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "0c83abfd99ef506a",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.9.2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "18f7fd829b5aca69",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "0c83abfd99ef506a",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.9.3",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "1017e35b59a68898",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "0c83abfd99ef506a",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.10.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "26c97f057c356c64",
+        "lines": 74
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "3ae78dfe20e863ca",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.10.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "26c97f057c356c64",
+        "lines": 74
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "3ae78dfe20e863ca",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.10.2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "26c97f057c356c64",
+        "lines": 74
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "3ae78dfe20e863ca",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.10.3",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "26c97f057c356c64",
+        "lines": 74
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "3ae78dfe20e863ca",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.11.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "89aa79f02b45d71a",
+        "lines": 75
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "3ae78dfe20e863ca",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.11.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "29d26c7167f16709",
+        "lines": 76
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "3ae78dfe20e863ca",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.12.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "7f0dbc97d3f470af",
+        "lines": 79
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "3ae78dfe20e863ca",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.12.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "7f0dbc97d3f470af",
+        "lines": 79
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "3ae78dfe20e863ca",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.13.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "91749a166d5a906c",
+        "lines": 73
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "3ae78dfe20e863ca",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.13.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "91749a166d5a906c",
+        "lines": 73
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "3ae78dfe20e863ca",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.13.2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "91749a166d5a906c",
+        "lines": 73
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "3ae78dfe20e863ca",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.14.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "91749a166d5a906c",
+        "lines": 73
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "3ae78dfe20e863ca",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.14.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "91749a166d5a906c",
+        "lines": 73
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "3ae78dfe20e863ca",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.14.2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "91749a166d5a906c",
+        "lines": 73
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "3ae78dfe20e863ca",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.15.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "1e4876fbd1e4a61f",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "0419eed19d07bfd2",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.16.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "1e4876fbd1e4a61f",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "0419eed19d07bfd2",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.16.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "1e4876fbd1e4a61f",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "0419eed19d07bfd2",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.17.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "bda4270deef3a539",
+        "lines": 73
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "0419eed19d07bfd2",
+        "lines": 36
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.18.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "24f8da1745bd441a",
+        "lines": 73
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.19.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "188a20344c2cbdb1",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.19.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "188a20344c2cbdb1",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.20.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "188a20344c2cbdb1",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.20.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "188a20344c2cbdb1",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      }
+    }
+  },
+  {
+    "tag": "v1.21.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "188a20344c2cbdb1",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      }
+    }
+  },
+  {
+    "tag": "v1.21.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "188a20344c2cbdb1",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      }
+    }
+  },
+  {
+    "tag": "v1.21.2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "188a20344c2cbdb1",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      }
+    }
+  },
+  {
+    "tag": "v1.22.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "a01edd86fbb447d5",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.22.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "a01edd86fbb447d5",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.22.2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "a01edd86fbb447d5",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.23.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "a01edd86fbb447d5",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.23.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "a01edd86fbb447d5",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.23.2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "a01edd86fbb447d5",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.24.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "a01edd86fbb447d5",
+        "lines": 71
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.25.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "3ba702622a6d7e48",
+        "lines": 43
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.25.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "3ba702622a6d7e48",
+        "lines": 43
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.25.2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "3ba702622a6d7e48",
+        "lines": 43
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.25.3",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "3ba702622a6d7e48",
+        "lines": 43
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.26.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "3ba702622a6d7e48",
+        "lines": 43
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/tiny_model_system.md": {
+        "hash": "206579a70f006845",
+        "lines": 21
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.26.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "3ba702622a6d7e48",
+        "lines": 43
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/tiny_model_system.md": {
+        "hash": "206579a70f006845",
+        "lines": 21
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.26.2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "3ba702622a6d7e48",
+        "lines": 43
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/tiny_model_system.md": {
+        "hash": "206579a70f006845",
+        "lines": 21
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.27.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "3ba702622a6d7e48",
+        "lines": 43
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/tiny_model_system.md": {
+        "hash": "206579a70f006845",
+        "lines": 21
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.27.1",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "3ba702622a6d7e48",
+        "lines": 43
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/tiny_model_system.md": {
+        "hash": "206579a70f006845",
+        "lines": 21
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.27.2",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "3ba702622a6d7e48",
+        "lines": 43
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/tiny_model_system.md": {
+        "hash": "206579a70f006845",
+        "lines": 21
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  },
+  {
+    "tag": "v1.28.0",
+    "files": {
+      "crates/goose/src/prompts/system.md": {
+        "hash": "3ba702622a6d7e48",
+        "lines": 43
+      },
+      "crates/goose/src/prompts/subagent_system.md": {
+        "hash": "dc28ea2255410771",
+        "lines": 38
+      },
+      "crates/goose/src/prompts/plan.md": {
+        "hash": "75396aacca753432",
+        "lines": 32
+      },
+      "crates/goose/src/prompts/tiny_model_system.md": {
+        "hash": "206579a70f006845",
+        "lines": 21
+      },
+      "crates/goose/src/prompts/compaction.md": {
+        "hash": "8ffa7c2ec4858c00",
+        "lines": 34
+      },
+      "crates/goose/src/prompts/apps_create.md": {
+        "hash": "ebbfe7ced972edad",
+        "lines": 19
+      }
+    }
+  }
+]
