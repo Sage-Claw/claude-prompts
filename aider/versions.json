@@ -1,0 +1,6683 @@
+[
+  {
+    "tag": "v0.54.13.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "35730518b170088b",
+        "lines": 188
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.55.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "35730518b170088b",
+        "lines": 188
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.56.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "1c7468069c3362bc",
+        "lines": 50
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "4d0aeca74c54e2b0",
+        "lines": 197
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.57.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "1c7468069c3362bc",
+        "lines": 50
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "4d0aeca74c54e2b0",
+        "lines": 197
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.57.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "1c7468069c3362bc",
+        "lines": 50
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "4d0aeca74c54e2b0",
+        "lines": 197
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.58.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "4d0aeca74c54e2b0",
+        "lines": 197
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.58.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "0d3854615b944381",
+        "lines": 197
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.59.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "0d3854615b944381",
+        "lines": 197
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.59.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "0d3854615b944381",
+        "lines": 197
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.60.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b09bb94a789a7bb",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "48b0aa425eae7732",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.60.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b09bb94a789a7bb",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "48b0aa425eae7732",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.61.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b09bb94a789a7bb",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "48b0aa425eae7732",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.62.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b09bb94a789a7bb",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "48b0aa425eae7732",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.62.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b09bb94a789a7bb",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "48b0aa425eae7732",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.63.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.63.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.63.3.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.64.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.64.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.65.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.65.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.66.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.67.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.68.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "de8d462d261dcaf6",
+        "lines": 200
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.69.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "de8d462d261dcaf6",
+        "lines": 200
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.69.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "de8d462d261dcaf6",
+        "lines": 200
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.70.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "de8d462d261dcaf6",
+        "lines": 200
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.71.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b51ee0e57fb4257",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.71.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b51ee0e57fb4257",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.72.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b51ee0e57fb4257",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.72.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b51ee0e57fb4257",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.72.3.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b51ee0e57fb4257",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.72.4.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b51ee0e57fb4257",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.73.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b51ee0e57fb4257",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.74.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.74.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.74.3.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.74.4.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.75.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.75.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.75.3.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.76.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.76.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.76.3.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.77.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.77.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.78.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.79.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.79.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.79.3.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.80.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.80.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.80.3.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.80.4.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.80.5.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.81.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.81.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.81.3.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "fefb3ad2e542b0d8",
+        "lines": 63
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.81.4.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "7a25eef434791dcb",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.82.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "7a25eef434791dcb",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "0b5f70935d952267",
+        "lines": 58
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "64eceba699e45934",
+        "lines": 207
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.82.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "7a25eef434791dcb",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "0b5f70935d952267",
+        "lines": 58
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "64eceba699e45934",
+        "lines": 207
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.82.3.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "7a25eef434791dcb",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "0b5f70935d952267",
+        "lines": 58
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "64eceba699e45934",
+        "lines": 207
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.82.4.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "7a25eef434791dcb",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "528a2baf82b48af9",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.83.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "419c6f3c52452f25",
+        "lines": 64
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "39ec1db08c031263",
+        "lines": 36
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.83.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "419c6f3c52452f25",
+        "lines": 64
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.83.3.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "419c6f3c52452f25",
+        "lines": 64
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.84.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "419c6f3c52452f25",
+        "lines": 64
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.85.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "419c6f3c52452f25",
+        "lines": 64
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.85.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "419c6f3c52452f25",
+        "lines": 64
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.85.3.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "ef4488324e4ff63b",
+        "lines": 61
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.85.4.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "ef4488324e4ff63b",
+        "lines": 61
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.85.5.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "ef4488324e4ff63b",
+        "lines": 61
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.85.6.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "ef4488324e4ff63b",
+        "lines": 61
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.86.1.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "ef4488324e4ff63b",
+        "lines": 61
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.86.2.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "ef4488324e4ff63b",
+        "lines": 61
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.86.3.dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "ef4488324e4ff63b",
+        "lines": 61
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "f2f23a519b349ffa",
+        "lines": 172
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b57c142f46d50742",
+        "lines": 64
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.5.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "a963f257b087ed82",
+        "lines": 113
+      }
+    }
+  },
+  {
+    "tag": "v0.6.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "a963f257b087ed82",
+        "lines": 113
+      }
+    }
+  },
+  {
+    "tag": "v0.6.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "a963f257b087ed82",
+        "lines": 113
+      }
+    }
+  },
+  {
+    "tag": "v0.6.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "a963f257b087ed82",
+        "lines": 113
+      }
+    }
+  },
+  {
+    "tag": "v0.6.3",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "a963f257b087ed82",
+        "lines": 113
+      }
+    }
+  },
+  {
+    "tag": "v0.6.4",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "a963f257b087ed82",
+        "lines": 113
+      }
+    }
+  },
+  {
+    "tag": "v0.6.6",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "a963f257b087ed82",
+        "lines": 113
+      }
+    }
+  },
+  {
+    "tag": "v0.7.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "25ac6e51c55c3184",
+        "lines": 26
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2a3173616bc48b9c",
+        "lines": 6
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a64db86039f3dc06",
+        "lines": 56
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "f6726c3cccd104b5",
+        "lines": 38
+      }
+    }
+  },
+  {
+    "tag": "v0.7.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "25ac6e51c55c3184",
+        "lines": 26
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2a3173616bc48b9c",
+        "lines": 6
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a64db86039f3dc06",
+        "lines": 56
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "fed2993dff202b97",
+        "lines": 38
+      }
+    }
+  },
+  {
+    "tag": "v0.7.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "25ac6e51c55c3184",
+        "lines": 26
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2a3173616bc48b9c",
+        "lines": 6
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a64db86039f3dc06",
+        "lines": 56
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "05c097eeb1aa0bc2",
+        "lines": 39
+      }
+    }
+  },
+  {
+    "tag": "v0.8.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "25ac6e51c55c3184",
+        "lines": 26
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a64db86039f3dc06",
+        "lines": 56
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6738f6028a7910d3",
+        "lines": 42
+      }
+    }
+  },
+  {
+    "tag": "v0.8.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "25ac6e51c55c3184",
+        "lines": 26
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2709c08751e56e2d",
+        "lines": 57
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6738f6028a7910d3",
+        "lines": 42
+      }
+    }
+  },
+  {
+    "tag": "v0.8.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "25ac6e51c55c3184",
+        "lines": 26
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2709c08751e56e2d",
+        "lines": 57
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6738f6028a7910d3",
+        "lines": 42
+      }
+    }
+  },
+  {
+    "tag": "v0.8.3",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "25ac6e51c55c3184",
+        "lines": 26
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2709c08751e56e2d",
+        "lines": 57
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6738f6028a7910d3",
+        "lines": 42
+      }
+    }
+  },
+  {
+    "tag": "v0.9.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "25ac6e51c55c3184",
+        "lines": 26
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "113c3117312d960b",
+        "lines": 57
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6738f6028a7910d3",
+        "lines": 42
+      }
+    }
+  },
+  {
+    "tag": "v0.10.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "25ac6e51c55c3184",
+        "lines": 26
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "d5486a198299ce7d",
+        "lines": 57
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6738f6028a7910d3",
+        "lines": 42
+      }
+    }
+  },
+  {
+    "tag": "v0.10.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "25ac6e51c55c3184",
+        "lines": 26
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "01cafe8c7d27e494",
+        "lines": 58
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6738f6028a7910d3",
+        "lines": 42
+      }
+    }
+  },
+  {
+    "tag": "v0.11.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "01cafe8c7d27e494",
+        "lines": 58
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.11.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "01cafe8c7d27e494",
+        "lines": 58
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.12.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2e592ac3930d90f2",
+        "lines": 61
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.13.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2e592ac3930d90f2",
+        "lines": 61
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.14.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2e592ac3930d90f2",
+        "lines": 61
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.14.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2e592ac3930d90f2",
+        "lines": 61
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.14.2-dev1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2e592ac3930d90f2",
+        "lines": 61
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.14.2-dev2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2e592ac3930d90f2",
+        "lines": 61
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.14.2-dev3",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2e592ac3930d90f2",
+        "lines": 61
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.14.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2e592ac3930d90f2",
+        "lines": 61
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.14.3-dev1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2e592ac3930d90f2",
+        "lines": 61
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.15.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2e592ac3930d90f2",
+        "lines": 61
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.16.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "33f6080009489c6f",
+        "lines": 59
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.16.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "33f6080009489c6f",
+        "lines": 59
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.16.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "33f6080009489c6f",
+        "lines": 59
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.16.3",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "33f6080009489c6f",
+        "lines": 59
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.17.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "c229f720638782d5",
+        "lines": 62
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.18.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "b2c6e1de53828809",
+        "lines": 188
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.18.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "245256ae0a9a24a5",
+        "lines": 188
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.19.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.19.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.20.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.21.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.21.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f4733420c0607e7b",
+        "lines": 44
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.22.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.23.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.24.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.24.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.25.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.26.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.26.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.27.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.28.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.29.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.29.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.29.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e12c850de5b137d2",
+        "lines": 43
+      }
+    }
+  },
+  {
+    "tag": "v0.30.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "3fd5e28eacd8492d",
+        "lines": 47
+      }
+    }
+  },
+  {
+    "tag": "v0.30.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "caf68646aae4231f",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "3fd5e28eacd8492d",
+        "lines": 47
+      }
+    }
+  },
+  {
+    "tag": "v0.31.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2bbea09f40f1dafd",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "3fd5e28eacd8492d",
+        "lines": 47
+      }
+    }
+  },
+  {
+    "tag": "v0.31.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "81b6e373d1812f41",
+        "lines": 8
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "2bbea09f40f1dafd",
+        "lines": 196
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "3fd5e28eacd8492d",
+        "lines": 47
+      }
+    }
+  },
+  {
+    "tag": "v0.32.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "424378052ca91ab4",
+        "lines": 12
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "d2024fe1a7e46bf8",
+        "lines": 153
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e4e90f620e0ada4d",
+        "lines": 72
+      }
+    }
+  },
+  {
+    "tag": "v0.33.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "424378052ca91ab4",
+        "lines": 12
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "d2024fe1a7e46bf8",
+        "lines": 153
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "e4e90f620e0ada4d",
+        "lines": 72
+      }
+    }
+  },
+  {
+    "tag": "v0.34.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "99739f0c91f0b793",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "650a4bf6beef5398",
+        "lines": 26
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "489bfe3301545445",
+        "lines": 140
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.35.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "87a5f09f085a4236",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "650a4bf6beef5398",
+        "lines": 26
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "489bfe3301545445",
+        "lines": 140
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.36.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "87a5f09f085a4236",
+        "lines": 48
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "650a4bf6beef5398",
+        "lines": 26
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "f9acf44e62018e3b",
+        "lines": 143
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.37.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "cf43e28cf45f4a19",
+        "lines": 34
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "e228f8498daf6d3e",
+        "lines": 143
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.38.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "cf43e28cf45f4a19",
+        "lines": 34
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "e228f8498daf6d3e",
+        "lines": 143
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.39.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "cf43e28cf45f4a19",
+        "lines": 34
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "e228f8498daf6d3e",
+        "lines": 143
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.40.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "cf43e28cf45f4a19",
+        "lines": 34
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "37701335830788b1",
+        "lines": 147
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.40.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "cf43e28cf45f4a19",
+        "lines": 34
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "37701335830788b1",
+        "lines": 147
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.40.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "cf43e28cf45f4a19",
+        "lines": 34
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "37701335830788b1",
+        "lines": 147
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.40.3",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "cf43e28cf45f4a19",
+        "lines": 34
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "37701335830788b1",
+        "lines": 147
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.40.4",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "cf43e28cf45f4a19",
+        "lines": 34
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "37701335830788b1",
+        "lines": 147
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.40.5",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "cf43e28cf45f4a19",
+        "lines": 34
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "37701335830788b1",
+        "lines": 147
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.40.6",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "cf43e28cf45f4a19",
+        "lines": 34
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "37701335830788b1",
+        "lines": 147
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.41.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "cf43e28cf45f4a19",
+        "lines": 34
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "37701335830788b1",
+        "lines": 147
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.42.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "cf43e28cf45f4a19",
+        "lines": 34
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "37701335830788b1",
+        "lines": 147
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.43.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "44bb0e69ddab628c",
+        "lines": 39
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "56408bfc79a12cb0",
+        "lines": 151
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.43.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "44bb0e69ddab628c",
+        "lines": 39
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "56408bfc79a12cb0",
+        "lines": 151
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.43.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "44bb0e69ddab628c",
+        "lines": 39
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "56408bfc79a12cb0",
+        "lines": 151
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.43.3",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "44bb0e69ddab628c",
+        "lines": 39
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "56408bfc79a12cb0",
+        "lines": 151
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.43.4",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "44bb0e69ddab628c",
+        "lines": 39
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "56408bfc79a12cb0",
+        "lines": 151
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.44.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "44bb0e69ddab628c",
+        "lines": 39
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "56408bfc79a12cb0",
+        "lines": 151
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.45.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "44bb0e69ddab628c",
+        "lines": 39
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "56408bfc79a12cb0",
+        "lines": 151
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.45.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "341e9479650103ba",
+        "lines": 50
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "44bb0e69ddab628c",
+        "lines": 39
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "56408bfc79a12cb0",
+        "lines": 151
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      }
+    }
+  },
+  {
+    "tag": "v0.46.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "2b9c8bd8c8038544",
+        "lines": 51
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "7a70bcf7eb08e44a",
+        "lines": 41
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "56408bfc79a12cb0",
+        "lines": 151
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.46.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "2b9c8bd8c8038544",
+        "lines": 51
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "7a70bcf7eb08e44a",
+        "lines": 41
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "56408bfc79a12cb0",
+        "lines": 151
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.47.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "b1166ae6ac967569",
+        "lines": 68
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "7a70bcf7eb08e44a",
+        "lines": 41
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "56408bfc79a12cb0",
+        "lines": 151
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.47.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "d7ef5729bc7e5d5c",
+        "lines": 55
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "7a70bcf7eb08e44a",
+        "lines": 41
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "56408bfc79a12cb0",
+        "lines": 151
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.48.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "d7ef5729bc7e5d5c",
+        "lines": 55
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "7a70bcf7eb08e44a",
+        "lines": 41
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "417ea14b0099dbaf",
+        "lines": 150
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.48.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "d7ef5729bc7e5d5c",
+        "lines": 55
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "7a70bcf7eb08e44a",
+        "lines": 41
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "417ea14b0099dbaf",
+        "lines": 150
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.49.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "d7ef5729bc7e5d5c",
+        "lines": 55
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "417ea14b0099dbaf",
+        "lines": 150
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.49.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "d7ef5729bc7e5d5c",
+        "lines": 55
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "417ea14b0099dbaf",
+        "lines": 150
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.50.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "d7ef5729bc7e5d5c",
+        "lines": 55
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "417ea14b0099dbaf",
+        "lines": 150
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.50.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "d7ef5729bc7e5d5c",
+        "lines": 55
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "417ea14b0099dbaf",
+        "lines": 150
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.51.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "d7ef5729bc7e5d5c",
+        "lines": 55
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "6c724d52ccbf8017",
+        "lines": 150
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.51.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "d7ef5729bc7e5d5c",
+        "lines": 55
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "6c724d52ccbf8017",
+        "lines": 150
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.52.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "d7ef5729bc7e5d5c",
+        "lines": 55
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "e87a66be38fdfaca",
+        "lines": 182
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.52.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "d7ef5729bc7e5d5c",
+        "lines": 55
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "e87a66be38fdfaca",
+        "lines": 182
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.53.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "d7ef5729bc7e5d5c",
+        "lines": 55
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "0b576bdd663da687",
+        "lines": 185
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.54.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "0b576bdd663da687",
+        "lines": 185
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.54.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "0b576bdd663da687",
+        "lines": 185
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.54.3",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "0b576bdd663da687",
+        "lines": 185
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.54.4",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "0b576bdd663da687",
+        "lines": 185
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.54.5",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "0b576bdd663da687",
+        "lines": 185
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.54.6",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "0b576bdd663da687",
+        "lines": 185
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.54.7",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "f350cacf974b2ee7",
+        "lines": 187
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.54.8",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "f350cacf974b2ee7",
+        "lines": 187
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.54.9",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "35730518b170088b",
+        "lines": 188
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.54.10",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "35730518b170088b",
+        "lines": 188
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.54.11",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "35730518b170088b",
+        "lines": 188
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.54.12-dev",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "35730518b170088b",
+        "lines": 188
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.54.12",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "35730518b170088b",
+        "lines": 188
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.55.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "687b2e55fa1dacc5",
+        "lines": 45
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "35730518b170088b",
+        "lines": 188
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.56.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "1c7468069c3362bc",
+        "lines": 50
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "4d0aeca74c54e2b0",
+        "lines": 197
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.57.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "1c7468069c3362bc",
+        "lines": 50
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "4d0aeca74c54e2b0",
+        "lines": 197
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.57.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "1c7468069c3362bc",
+        "lines": 50
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "4d0aeca74c54e2b0",
+        "lines": 197
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "aa6b4ca9229d9099",
+        "lines": 30
+      }
+    }
+  },
+  {
+    "tag": "v0.58.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "4d0aeca74c54e2b0",
+        "lines": 197
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.58.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "f903d753b5bbf95e",
+        "lines": 56
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "0d3854615b944381",
+        "lines": 197
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.59.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "0d3854615b944381",
+        "lines": 197
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.59.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "0d3854615b944381",
+        "lines": 197
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b3ca4bcf02b56414",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.60.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b09bb94a789a7bb",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "48b0aa425eae7732",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.60.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b09bb94a789a7bb",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "48b0aa425eae7732",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.61.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b09bb94a789a7bb",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "48b0aa425eae7732",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.62.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b09bb94a789a7bb",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "48b0aa425eae7732",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.62.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b09bb94a789a7bb",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "48b0aa425eae7732",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "a1dfa11d2253cb3a",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "88090f8e5169c707",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.63.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.63.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.63.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.64.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.64.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.65.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.65.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.66.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.67.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "a4a01994486cdd0f",
+        "lines": 198
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.68.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "de8d462d261dcaf6",
+        "lines": 200
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.69.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "de8d462d261dcaf6",
+        "lines": 200
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.69.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "de8d462d261dcaf6",
+        "lines": 200
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.70.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "de8d462d261dcaf6",
+        "lines": 200
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8c5ce54cd6ab8c45",
+        "lines": 33
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.71.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b51ee0e57fb4257",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.71.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b51ee0e57fb4257",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.72.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b51ee0e57fb4257",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.72.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b51ee0e57fb4257",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.72.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b51ee0e57fb4257",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.72.3",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b51ee0e57fb4257",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.73.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5b51ee0e57fb4257",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.74.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.74.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.74.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.74.3",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.75.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.75.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.75.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.76.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.76.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.76.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.77.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.77.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.78.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "8615060d90f00994",
+        "lines": 52
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.79.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.79.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.79.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.80.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.80.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.80.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.80.3",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.80.4",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.81.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.81.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "c77d956838bb0625",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.81.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "fefb3ad2e542b0d8",
+        "lines": 63
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.81.3",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "7a25eef434791dcb",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "2feba8ecb39d99ef",
+        "lines": 55
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "5a6af0aa59821202",
+        "lines": 203
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.82.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "7a25eef434791dcb",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "0b5f70935d952267",
+        "lines": 58
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "64eceba699e45934",
+        "lines": 207
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.82.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "7a25eef434791dcb",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "0b5f70935d952267",
+        "lines": 58
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "64eceba699e45934",
+        "lines": 207
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.82.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "7a25eef434791dcb",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "0b5f70935d952267",
+        "lines": 58
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "64eceba699e45934",
+        "lines": 207
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "6486c6a2c7336ecd",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "f39319ffef0991a3",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.82.3",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "7a25eef434791dcb",
+        "lines": 62
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "528a2baf82b48af9",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.83.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "419c6f3c52452f25",
+        "lines": 64
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "39ec1db08c031263",
+        "lines": 36
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.83.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "419c6f3c52452f25",
+        "lines": 64
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.83.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "419c6f3c52452f25",
+        "lines": 64
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.84.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "419c6f3c52452f25",
+        "lines": 64
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.85.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "419c6f3c52452f25",
+        "lines": 64
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.85.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "419c6f3c52452f25",
+        "lines": 64
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.85.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "ef4488324e4ff63b",
+        "lines": 61
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.85.3",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "ef4488324e4ff63b",
+        "lines": 61
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.85.4",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "ef4488324e4ff63b",
+        "lines": 61
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.85.5",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "ef4488324e4ff63b",
+        "lines": 61
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.86.0",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "ef4488324e4ff63b",
+        "lines": 61
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.86.1",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "ef4488324e4ff63b",
+        "lines": 61
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "49f76937c3e5013c",
+        "lines": 174
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "944e60b6f0fc7aac",
+        "lines": 67
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  },
+  {
+    "tag": "v0.86.2",
+    "files": {
+      "aider/prompts.py": {
+        "hash": "ef4488324e4ff63b",
+        "lines": 61
+      },
+      "aider/coders/base_prompts.py": {
+        "hash": "70029bf633852429",
+        "lines": 60
+      },
+      "aider/coders/editblock_prompts.py": {
+        "hash": "f2f23a519b349ffa",
+        "lines": 172
+      },
+      "aider/coders/wholefile_prompts.py": {
+        "hash": "b57c142f46d50742",
+        "lines": 64
+      },
+      "aider/coders/ask_prompts.py": {
+        "hash": "8531613d4bc94450",
+        "lines": 35
+      },
+      "aider/coders/architect_prompts.py": {
+        "hash": "bb41b0d7862e5225",
+        "lines": 40
+      }
+    }
+  }
+]
