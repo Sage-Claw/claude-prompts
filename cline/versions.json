@@ -1,0 +1,3505 @@
+[
+  {
+    "tag": "v1.0.4",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.6",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.7",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.9",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.51",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.61",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.62",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.71",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.72",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.73",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.82",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.84",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.85",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.91",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.92",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.93",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.94",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.95",
+    "files": {}
+  },
+  {
+    "tag": "v1.0.98",
+    "files": {}
+  },
+  {
+    "tag": "v1.1.0",
+    "files": {}
+  },
+  {
+    "tag": "v1.1.1",
+    "files": {}
+  },
+  {
+    "tag": "v1.1.12",
+    "files": {}
+  },
+  {
+    "tag": "v1.1.13",
+    "files": {}
+  },
+  {
+    "tag": "v1.1.14",
+    "files": {}
+  },
+  {
+    "tag": "v1.1.15",
+    "files": {}
+  },
+  {
+    "tag": "v1.2.0",
+    "files": {}
+  },
+  {
+    "tag": "v1.3.0",
+    "files": {}
+  },
+  {
+    "tag": "v1.4.0",
+    "files": {}
+  },
+  {
+    "tag": "v1.5.0",
+    "files": {}
+  },
+  {
+    "tag": "v1.5.4",
+    "files": {}
+  },
+  {
+    "tag": "v1.5.6",
+    "files": {}
+  },
+  {
+    "tag": "v1.5.13",
+    "files": {}
+  },
+  {
+    "tag": "v1.5.19",
+    "files": {}
+  },
+  {
+    "tag": "v1.5.27",
+    "files": {}
+  },
+  {
+    "tag": "v1.6.0",
+    "files": {}
+  },
+  {
+    "tag": "v1.6.5",
+    "files": {}
+  },
+  {
+    "tag": "v1.7.0",
+    "files": {}
+  },
+  {
+    "tag": "v1.8.0",
+    "files": {}
+  },
+  {
+    "tag": "v1.9.0",
+    "files": {}
+  },
+  {
+    "tag": "v2.0.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "1d75c7dc57347085",
+        "lines": 258
+      }
+    }
+  },
+  {
+    "tag": "v2.1.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "35873b2ddcabe530",
+        "lines": 293
+      }
+    }
+  },
+  {
+    "tag": "v2.2.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "530e2e539b61618b",
+        "lines": 751
+      }
+    }
+  },
+  {
+    "tag": "v3.0.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "7351305ee23425b0",
+        "lines": 891
+      }
+    }
+  },
+  {
+    "tag": "v3.1.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "529c93a828c31b07",
+        "lines": 909
+      }
+    }
+  },
+  {
+    "tag": "v3.2.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d158035b3e069e4e",
+        "lines": 942
+      }
+    }
+  },
+  {
+    "tag": "v3.2.6",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "85d9987cea199693",
+        "lines": 977
+      }
+    }
+  },
+  {
+    "tag": "v3.2.7",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "85d9987cea199693",
+        "lines": 977
+      }
+    }
+  },
+  {
+    "tag": "v3.2.8",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "85d9987cea199693",
+        "lines": 977
+      }
+    }
+  },
+  {
+    "tag": "v3.2.9",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "85d9987cea199693",
+        "lines": 977
+      }
+    }
+  },
+  {
+    "tag": "v3.3.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "1a247d59e67c3139",
+        "lines": 984
+      }
+    }
+  },
+  {
+    "tag": "v3.4.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "2a2dfc896342a34e",
+        "lines": 1002
+      }
+    }
+  },
+  {
+    "tag": "v3.5.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "f0c817b522ae3d1e",
+        "lines": 1006
+      }
+    }
+  },
+  {
+    "tag": "v3.5.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "f0c817b522ae3d1e",
+        "lines": 1006
+      }
+    }
+  },
+  {
+    "tag": "v3.6.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "f0c817b522ae3d1e",
+        "lines": 1006
+      }
+    }
+  },
+  {
+    "tag": "v3.6.9",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "f0c817b522ae3d1e",
+        "lines": 1006
+      }
+    }
+  },
+  {
+    "tag": "v3.7.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "e356052a5491b915",
+        "lines": 1014
+      }
+    }
+  },
+  {
+    "tag": "v3.7.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "e356052a5491b915",
+        "lines": 1014
+      }
+    }
+  },
+  {
+    "tag": "v3.8.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "e356052a5491b915",
+        "lines": 1014
+      }
+    }
+  },
+  {
+    "tag": "v3.8.3",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "e356052a5491b915",
+        "lines": 1014
+      }
+    }
+  },
+  {
+    "tag": "v3.8.4",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "04fe493775b80c28",
+        "lines": 1014
+      }
+    }
+  },
+  {
+    "tag": "v3.8.5",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "42b7e5707f58fa83",
+        "lines": 1014
+      }
+    }
+  },
+  {
+    "tag": "v3.8.6",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "42b7e5707f58fa83",
+        "lines": 1014
+      }
+    }
+  },
+  {
+    "tag": "v3.9.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "42b7e5707f58fa83",
+        "lines": 1014
+      }
+    }
+  },
+  {
+    "tag": "v3.9.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "42b7e5707f58fa83",
+        "lines": 1014
+      }
+    }
+  },
+  {
+    "tag": "v3.9.2",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "42b7e5707f58fa83",
+        "lines": 1014
+      }
+    }
+  },
+  {
+    "tag": "v3.10.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "95bcc79f730f851c",
+        "lines": 620
+      }
+    }
+  },
+  {
+    "tag": "v3.10.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "ffda0edde5d5304b",
+        "lines": 1035
+      }
+    }
+  },
+  {
+    "tag": "v3.11.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "ffda0edde5d5304b",
+        "lines": 1035
+      }
+    }
+  },
+  {
+    "tag": "v3.11.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "ffda0edde5d5304b",
+        "lines": 1035
+      }
+    }
+  },
+  {
+    "tag": "v3.12.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "685cda0242c6f531",
+        "lines": 1031
+      }
+    }
+  },
+  {
+    "tag": "v3.12.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "2c9113636b6d571e",
+        "lines": 648
+      }
+    }
+  },
+  {
+    "tag": "v3.12.2",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "2c9113636b6d571e",
+        "lines": 648
+      }
+    }
+  },
+  {
+    "tag": "v3.12.3",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "689f9f9576baf17c",
+        "lines": 652
+      }
+    }
+  },
+  {
+    "tag": "v3.13.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "689f9f9576baf17c",
+        "lines": 652
+      }
+    }
+  },
+  {
+    "tag": "v3.13.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "689f9f9576baf17c",
+        "lines": 652
+      }
+    }
+  },
+  {
+    "tag": "v3.13.2",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "6c67f9943e335441",
+        "lines": 666
+      }
+    }
+  },
+  {
+    "tag": "v3.13.3",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "6c67f9943e335441",
+        "lines": 666
+      }
+    }
+  },
+  {
+    "tag": "v3.14.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.14.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.15.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.15.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.15.2",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.15.3",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.15.4",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.15.5",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.16.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.16.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.16.2",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.16.3",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.17.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.17.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.17.2",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d680713886917d4a",
+        "lines": 679
+      }
+    }
+  },
+  {
+    "tag": "v3.17.3",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "1fc96fb400c14ea3",
+        "lines": 680
+      }
+    }
+  },
+  {
+    "tag": "v3.17.4",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "1fc96fb400c14ea3",
+        "lines": 680
+      }
+    }
+  },
+  {
+    "tag": "v3.17.5",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "1fc96fb400c14ea3",
+        "lines": 680
+      }
+    }
+  },
+  {
+    "tag": "v3.17.6",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "477c5827e42945f8",
+        "lines": 769
+      }
+    }
+  },
+  {
+    "tag": "v3.17.7",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "1d684946650482a6",
+        "lines": 771
+      }
+    }
+  },
+  {
+    "tag": "v3.17.8",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "cb74bb424a1618a3",
+        "lines": 689
+      }
+    }
+  },
+  {
+    "tag": "v3.17.9",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4551b6ab4b4b1d6f",
+        "lines": 697
+      }
+    }
+  },
+  {
+    "tag": "v3.17.10",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4551b6ab4b4b1d6f",
+        "lines": 697
+      }
+    }
+  },
+  {
+    "tag": "v3.17.11",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4551b6ab4b4b1d6f",
+        "lines": 697
+      }
+    }
+  },
+  {
+    "tag": "v3.17.12",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4551b6ab4b4b1d6f",
+        "lines": 697
+      }
+    }
+  },
+  {
+    "tag": "v3.17.13",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "e4fce1128e359257",
+        "lines": 693
+      }
+    }
+  },
+  {
+    "tag": "v3.17.14-a",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "e4fce1128e359257",
+        "lines": 693
+      }
+    }
+  },
+  {
+    "tag": "v3.17.14",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "e4fce1128e359257",
+        "lines": 693
+      }
+    }
+  },
+  {
+    "tag": "v3.17.15",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "bd3fa281a672e013",
+        "lines": 696
+      }
+    }
+  },
+  {
+    "tag": "v3.17.16",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "bd3fa281a672e013",
+        "lines": 696
+      }
+    }
+  },
+  {
+    "tag": "v3.18.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "f6d35e4e6c2206b9",
+        "lines": 696
+      }
+    }
+  },
+  {
+    "tag": "v3.18.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "f6d35e4e6c2206b9",
+        "lines": 696
+      }
+    }
+  },
+  {
+    "tag": "v3.18.2",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.18.3",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.18.4",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.18.5",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.18.6",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.18.7",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.18.9",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.18.10",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.18.11",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.18.12",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.18.13",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.18.14",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.18.15",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.19.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.19.2",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.19.3",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.19.4",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.19.5",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.19.6",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.19.7",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.19.8",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.20.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.20.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.20.2",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.20.3",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "4b5e407c91e0ce04",
+        "lines": 694
+      }
+    }
+  },
+  {
+    "tag": "v3.20.4",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "614af846bda4d634",
+        "lines": 692
+      }
+    }
+  },
+  {
+    "tag": "v3.20.5",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "614af846bda4d634",
+        "lines": 692
+      }
+    }
+  },
+  {
+    "tag": "v3.20.6",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "614af846bda4d634",
+        "lines": 692
+      }
+    }
+  },
+  {
+    "tag": "v3.20.7",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "614af846bda4d634",
+        "lines": 692
+      }
+    }
+  },
+  {
+    "tag": "v3.20.8",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "614af846bda4d634",
+        "lines": 692
+      }
+    }
+  },
+  {
+    "tag": "v3.20.9",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "614af846bda4d634",
+        "lines": 692
+      }
+    }
+  },
+  {
+    "tag": "v3.20.11",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "614af846bda4d634",
+        "lines": 692
+      }
+    }
+  },
+  {
+    "tag": "v3.20.12",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "614af846bda4d634",
+        "lines": 692
+      }
+    }
+  },
+  {
+    "tag": "v3.20.13",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "614af846bda4d634",
+        "lines": 692
+      }
+    }
+  },
+  {
+    "tag": "v3.21.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d640efd789926590",
+        "lines": 695
+      }
+    }
+  },
+  {
+    "tag": "v3.22.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d640efd789926590",
+        "lines": 695
+      }
+    }
+  },
+  {
+    "tag": "v3.23.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "d640efd789926590",
+        "lines": 695
+      }
+    }
+  },
+  {
+    "tag": "v3.24.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "fa26def8ede07f45",
+        "lines": 689
+      }
+    }
+  },
+  {
+    "tag": "v3.25.0",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "e9546a72bef698eb",
+        "lines": 788
+      }
+    }
+  },
+  {
+    "tag": "v3.25.1",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "e9546a72bef698eb",
+        "lines": 788
+      }
+    }
+  },
+  {
+    "tag": "v3.25.2",
+    "files": {
+      "src/core/prompts/system.ts": {
+        "hash": "e9546a72bef698eb",
+        "lines": 788
+      }
+    }
+  },
+  {
+    "tag": "v3.25.3",
+    "files": {}
+  },
+  {
+    "tag": "v3.26.0",
+    "files": {}
+  },
+  {
+    "tag": "v3.26.1",
+    "files": {}
+  },
+  {
+    "tag": "v3.26.2",
+    "files": {}
+  },
+  {
+    "tag": "v3.26.3",
+    "files": {}
+  },
+  {
+    "tag": "v3.26.4",
+    "files": {}
+  },
+  {
+    "tag": "v3.26.5",
+    "files": {}
+  },
+  {
+    "tag": "v3.26.6",
+    "files": {}
+  },
+  {
+    "tag": "v3.26.7",
+    "files": {}
+  },
+  {
+    "tag": "v3.27.0",
+    "files": {}
+  },
+  {
+    "tag": "v3.27.1",
+    "files": {}
+  },
+  {
+    "tag": "v3.27.2",
+    "files": {}
+  },
+  {
+    "tag": "v3.28.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "27d9d7a6c436869d",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "014a8857710205da",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "0befa0036d87e85d",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "e7db12b9c50c24b2",
+        "lines": 14
+      }
+    }
+  },
+  {
+    "tag": "v3.28.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "27d9d7a6c436869d",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "014a8857710205da",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "0befa0036d87e85d",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "e7db12b9c50c24b2",
+        "lines": 14
+      }
+    }
+  },
+  {
+    "tag": "v3.28.2",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "27d9d7a6c436869d",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "014a8857710205da",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "0befa0036d87e85d",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "e7db12b9c50c24b2",
+        "lines": 14
+      }
+    }
+  },
+  {
+    "tag": "v3.28.3",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "27d9d7a6c436869d",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "014a8857710205da",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "0befa0036d87e85d",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "e7db12b9c50c24b2",
+        "lines": 14
+      }
+    }
+  },
+  {
+    "tag": "v3.28.4",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "27d9d7a6c436869d",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "014a8857710205da",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "0befa0036d87e85d",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "e7db12b9c50c24b2",
+        "lines": 14
+      }
+    }
+  },
+  {
+    "tag": "v3.28.5",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "27d9d7a6c436869d",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "014a8857710205da",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "0befa0036d87e85d",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "e7db12b9c50c24b2",
+        "lines": 14
+      }
+    }
+  },
+  {
+    "tag": "v3.28.6",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "27d9d7a6c436869d",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "014a8857710205da",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "0befa0036d87e85d",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "e7db12b9c50c24b2",
+        "lines": 14
+      }
+    }
+  },
+  {
+    "tag": "v3.29.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "69ffbdd856ae6282",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.29.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "69ffbdd856ae6282",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.29.2",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "69ffbdd856ae6282",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.30.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "69ffbdd856ae6282",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.30.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "69ffbdd856ae6282",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.30.2",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "69ffbdd856ae6282",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.30.3",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "69ffbdd856ae6282",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.31.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "69ffbdd856ae6282",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.31.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "69ffbdd856ae6282",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.32.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "69ffbdd856ae6282",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.32.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "69ffbdd856ae6282",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.32.2",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "69ffbdd856ae6282",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.32.3",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "69ffbdd856ae6282",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.32.4",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "69ffbdd856ae6282",
+        "lines": 81
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.32.5",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.32.6",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.32.7",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.32.8",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.33.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.33.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.33.2",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "16ac683328ce4aec",
+        "lines": 40
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.34.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "d7f267c1ea7283b3",
+        "lines": 44
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.34.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "d7f267c1ea7283b3",
+        "lines": 44
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.35.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.35.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.36.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.36.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.37.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.37.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.38.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.38.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.38.2",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.38.3",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "76981b2db3e4f9df",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.39.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.39.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.39.2",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.40.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.40.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.40.2",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.41.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.42.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.43.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.43.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.44.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.44.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.44.2",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.45.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.45.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.46.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.46.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.47.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "979a265eb9b0b5e9",
+        "lines": 29
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.48.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "74b255c6b4bd1633",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.49.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "74b255c6b4bd1633",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.49.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "74b255c6b4bd1633",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.50.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "74b255c6b4bd1633",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.51.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "6fd9185564f2aea2",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "74b255c6b4bd1633",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.52.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.53.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.53.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.54.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.55.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.56.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.56.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.56.2",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "da4e5d2ecf610443",
+        "lines": 47
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "2aa3b420d31f9855",
+        "lines": 82
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.57.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "3af0c08a9b13ac86",
+        "lines": 51
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.57.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "3af0c08a9b13ac86",
+        "lines": 51
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.58.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.59.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.60.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.61.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.62.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.63.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.64.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.65.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.66.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.67.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.67.1",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.68.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.69.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.70.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.71.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "ccc6234579e7a7ac",
+        "lines": 54
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.72.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "1cb79b2b9c52ba32",
+        "lines": 56
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.73.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "1cb79b2b9c52ba32",
+        "lines": 56
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.74.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "1cb79b2b9c52ba32",
+        "lines": 56
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  },
+  {
+    "tag": "v3.75.0",
+    "files": {
+      "src/core/prompts/system-prompt/index.ts": {
+        "hash": "c36331d9338e0bcd",
+        "lines": 21
+      },
+      "src/core/prompts/system-prompt/components/rules.ts": {
+        "hash": "1cb79b2b9c52ba32",
+        "lines": 56
+      },
+      "src/core/prompts/system-prompt/components/capabilities.ts": {
+        "hash": "0fd9fb84a6c4d82e",
+        "lines": 35
+      },
+      "src/core/prompts/system-prompt/components/editing_files.ts": {
+        "hash": "41be6454e468535e",
+        "lines": 89
+      },
+      "src/core/prompts/system-prompt/components/agent_role.ts": {
+        "hash": "17bb1c9a624ed2c5",
+        "lines": 15
+      }
+    }
+  }
+]
