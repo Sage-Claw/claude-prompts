@@ -1,6 +1,6 @@
 ---
-extracted: 2026-03-21
-app-version: 1.1.7714 (3bd6f69)
+extracted: 2026-03-27
+app-version: 1.1.9310 (cb30ace)
 cowork-version: 0.2.2
 model: claude-sonnet-4-6
 count: 22
