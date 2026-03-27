@@ -217,7 +217,7 @@ def main():
     args = parser.parse_args()
 
     repo_path = os.path.expanduser(args.repo)
-    cowork_dir = os.path.join(repo_path, "cowork")
+    cowork_dir = os.path.join(repo_path, "claude-cowork")
 
     # --- Step 0: check for a newer Claude app via brew and upgrade if available ---
     upgrade_info = {}
@@ -312,10 +312,10 @@ def main():
 
     # Stage changed files
     file_map = {
-        "system_prompt":  "cowork/system-prompt.md",
-        "slash_commands": "cowork/slash-commands.md",
-        "mcp_tools":      "cowork/mcp-tools.md",
-        "egress_domains": "cowork/egress-domains.md",
+        "system_prompt":  "claude-cowork/system-prompt.md",
+        "slash_commands": "claude-cowork/slash-commands.md",
+        "mcp_tools":      "claude-cowork/mcp-tools.md",
+        "egress_domains": "claude-cowork/egress-domains.md",
     }
     diffs = {}
     for key, git_path in file_map.items():

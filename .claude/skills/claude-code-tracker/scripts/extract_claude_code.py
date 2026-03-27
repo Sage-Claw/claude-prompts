@@ -23,14 +23,16 @@ SETTINGS_PATH = os.path.expanduser("~/.claude/settings.json")
 PLUGINS_CACHE = os.path.expanduser("~/.claude/plugins/cache")
 
 # System prompt section functions to extract from binary
+# v2.1.86+ (2026-03-27): qJ/UYK/QYK/lYK/aYK/oYK/tYK
+# v2.1.80  (2026-03-17): qrK/KrK/RrK/$rK/zrK/jrK/BH7
 SECTIONS = [
-    ("identity",    b"function qrK("),
-    ("system",      b"function KrK("),
-    ("coding",      b"function RrK("),
-    ("safety",      b"function $rK("),
-    ("tone",        b"function zrK("),
-    ("efficiency",  b"function jrK("),
-    ("env",         b"async function BH7("),
+    ("identity",    b"async function qJ("),
+    ("system",      b"function UYK("),
+    ("coding",      b"function QYK("),
+    ("safety",      b"function lYK("),
+    ("tone",        b"function aYK("),
+    ("efficiency",  b"function oYK("),
+    ("env",         b"async function tYK("),
 ]
 
 
