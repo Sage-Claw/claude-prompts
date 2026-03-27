@@ -2,6 +2,19 @@
 
 ---
 
+## v2.1.86 — 2026-03-27
+
+**Prompt hash:** `fe725a8e86eb4f0a`
+**Build time:** `2026-03-27T20:29:28Z`
+**Commit:** `bbf4607`
+
+### Summary
+Extraction failed. The JS bundle was rebuilt in v2.1.86 and the minified function names used to locate system prompt sections (`qrK`, `KrK`, etc.) have changed. The script matched wrong content — mcpb plugin manifest tool strings — instead of the actual system prompt. The captured `system-prompt.md` for this version is invalid.
+
+**Action required:** Update `extract_claude_code.py` with the new function names from the v2.1.86 bundle to restore tracking.
+
+---
+
 ## v2.1.78–v2.1.80 — 2026-03-17
 
 **Prompt hash:** `852c4b5d81f2a66f`
