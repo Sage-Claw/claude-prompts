@@ -1849,5 +1849,18 @@
         "lines": 311
       }
     }
+  },
+  {
+    "tag": "v1.0.77",
+    "files": {
+      "src/create-prompt/index.ts": {
+        "hash": "396c61716c7eb35e",
+        "lines": 991
+      },
+      "action.yml": {
+        "hash": "b839022521aefe04",
+        "lines": 321
+      }
+    }
   }
 ]
