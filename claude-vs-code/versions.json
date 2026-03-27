@@ -970,5 +970,11 @@
     "prompts": {
       "vscode-extension-context": "3bfa08a08faa1c6f"
     }
+  },
+  {
+    "version": "2.1.83",
+    "prompts": {
+      "vscode-extension-context": "49b99f4335f828b9"
+    }
   }
 ]
