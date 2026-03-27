@@ -4,14 +4,19 @@
 
 ## v2.1.86 — 2026-03-27
 
-**Prompt hash:** `fe725a8e86eb4f0a`
+**Prompt hash:** `1258ff383e073bc9` (was: `852c4b5d81f2a66f`)
 **Build time:** `2026-03-27T20:29:28Z`
-**Commit:** `bbf4607`
+**Commit:** `bbf4607` (content) + re-extracted after function name fix
 
 ### Summary
-Extraction failed. The JS bundle was rebuilt in v2.1.86 and the minified function names used to locate system prompt sections (`qrK`, `KrK`, etc.) have changed. The script matched wrong content — mcpb plugin manifest tool strings — instead of the actual system prompt. The captured `system-prompt.md` for this version is invalid.
+Major bundle rebuild — all section function names changed (`qrK/KrK/…` → `qJ/UYK/QYK/lYK/aYK/oYK/tYK`). Several real prompt changes alongside the structural churn. The identity section (`qJ`) is now the main system prompt assembly function and captures runtime context blocks (MCP instructions, env, model info) that were previously dynamic-only.
 
-**Action required:** Update `extract_claude_code.py` with the new function names from the v2.1.86 bundle to restore tracking.
+### Key changes
+- **System:** Added `! <command>` shorthand tip — suggest `! gcloud auth login` style for interactive shell commands the user needs to run themselves.
+- **Coding Instructions:** Refined the "don't brute-force" instruction → "If an approach fails, diagnose why before switching tactics — read the error, check your assumptions, try a focused fix. Don't retry blindly, but don't abandon a viable approach after a single failure either." Also tightened the complexity rule: "what the task actually requires — no speculative abstractions, but no half-finished implementations either."
+- **Executing Actions with Care:** Added explicit tool-preference rules: use `Read` instead of cat/head/tail/sed, `Edit` instead of sed/awk, `Write` instead of echo-heredoc, `Glob` instead of find, `Grep` instead of grep/rg. Reserve `Bash` for system commands only.
+- **Tone and Style:** Added GitHub issue/PR link format instruction — use `owner/repo#123` (e.g. `anthropics/claude-code#100`) so references render as clickable links.
+- **Identity (new content):** Added `# Scratchpad Directory` — instructs Claude to use a session-specific scratchpad path for all temp files instead of `/tmp`. Added agent-mode instructions (absolute paths, concise final report). Added Claude 4.5/4.6 model family reference with current model IDs.
 
 ---
 
