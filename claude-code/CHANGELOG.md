@@ -2,6 +2,22 @@
 
 ---
 
+## v2.1.91 — 2026-04-13
+
+**Commit:** `1b2a642`
+**Build time:** `2026-04-02T21:58:41Z`
+**Prompt hash:** `2bf6c77e7b27712e` (was: `1258ff383e073bc9`)
+
+### Summary
+Prompt extraction updated for Claude Code v2.1.91 from the npm-installed CLI bundle. The captured prompt now reflects the current section structure without the prior duplicated/repeated blocks.
+
+### Key changes
+- **Identity & Behavior:** added explicit interactive-agent framing and a warning not to guess URLs unless confident they are programming-help links.
+- **System/Coding/Safety/Tone/Efficiency:** refreshed all major sections for v2.1.91 with cleaned, non-duplicated captures.
+- **Plugins snapshot:** plugin list changed from 3 cached plugins to 0 (`content-hash: e3b0c44298fc1c14`).
+
+---
+
 ## v2.1.86 — 2026-03-27
 
 **Prompt hash:** `1258ff383e073bc9` (was: `852c4b5d81f2a66f`)
