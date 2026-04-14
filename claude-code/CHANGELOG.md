@@ -2,6 +2,22 @@
 
 ---
 
+## v2.1.91 — 2026-04-14
+
+**Prompt hash:** `e3b0c44298fc1c14` (was: `1258ff383e073bc9`)
+**Build time:** `unknown`
+**Commit:** `ad847f1`
+
+### Summary
+Extraction captured an effectively empty prompt payload for Claude Code v2.1.91, and plugin snapshot dropped to zero entries. This appears to be an extractor regression tied to bundle/layout changes, not a likely intentional prompt wipe.
+
+### Key changes
+- **System prompt capture:** `claude-code/system-prompt.md` collapsed from full multi-section content to header metadata only.
+- **Plugins snapshot:** `claude-code/plugins.md` changed from 3 plugins to 0 plugins.
+- **Extractor health signal:** Prompt hash became SHA-256 empty-content prefix (`e3b0...`), indicating parse failure or no extracted body.
+
+---
+
 ## v2.1.86 — 2026-03-27
 
 **Prompt hash:** `1258ff383e073bc9` (was: `852c4b5d81f2a66f`)
