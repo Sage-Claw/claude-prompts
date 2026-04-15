@@ -23,17 +23,34 @@ SETTINGS_PATH = os.path.expanduser("~/.claude/settings.json")
 PLUGINS_CACHE = os.path.expanduser("~/.claude/plugins/cache")
 
 # System prompt section functions to extract from binary
+# v2.1.87  (2026-03-30): LD/_yz/Yyz/zyz/jyz/wyz/Jyz
 # v2.1.86+ (2026-03-27): qJ/UYK/QYK/lYK/aYK/oYK/tYK
 # v2.1.80  (2026-03-17): qrK/KrK/RrK/$rK/zrK/jrK/BH7
-SECTIONS = [
-    ("identity",    b"async function qJ("),
-    ("system",      b"function UYK("),
-    ("coding",      b"function QYK("),
-    ("safety",      b"function lYK("),
-    ("tone",        b"function aYK("),
-    ("efficiency",  b"function oYK("),
-    ("env",         b"async function tYK("),
-]
+SECTIONS_BY_VERSION = {
+    "2.1.87": [
+        ("identity",    b"async function LD("),
+        ("system",      b"function _yz("),
+        ("coding",      b"function Yyz("),
+        ("safety",      b"function zyz("),
+        ("tone",        b"function jyz("),
+        ("efficiency",  b"function wyz("),
+        ("env",         b"async function Jyz("),
+    ],
+    "default": [
+        ("identity",    b"async function qJ("),
+        ("system",      b"function UYK("),
+        ("coding",      b"function QYK("),
+        ("safety",      b"function lYK("),
+        ("tone",        b"function aYK("),
+        ("efficiency",  b"function oYK("),
+        ("env",         b"async function tYK("),
+    ],
+}
+
+def get_sections(version):
+    return SECTIONS_BY_VERSION.get(version, SECTIONS_BY_VERSION["default"])
+
+SECTIONS = SECTIONS_BY_VERSION["default"]  # fallback for compatibility
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -156,16 +173,25 @@ def extract_section(binary_data, func_marker, window=12000):
     return "\n\n".join(texts)
 
 
-def extract_system_prompt(binary_path):
+def extract_system_prompt(binary_path, version=None):
     """Extract all system prompt sections from the binary."""
     with open(binary_path, "rb") as f:
         data = f.read()
 
+    # Try version-specific markers first, fall back to default
+    section_list = get_sections(version) if version else SECTIONS
     sections = {}
-    for name, marker in SECTIONS:
+    for name, marker in section_list:
         text = extract_section(data, marker)
         if text:
             sections[name] = text
+
+    # If version-specific markers found nothing, try default
+    if not sections and version and version in SECTIONS_BY_VERSION:
+        for name, marker in SECTIONS_BY_VERSION["default"]:
+            text = extract_section(data, marker)
+            if text:
+                sections[name] = text
 
     return sections
 
@@ -272,7 +298,7 @@ def main():
     os.makedirs(out_dir, exist_ok=True)
 
     # Extract and write
-    sections = extract_system_prompt(binary_path) if binary_path else {}
+    sections = extract_system_prompt(binary_path, version=version) if binary_path else {}
     new_hashes = {
         "system_prompt": write_system_prompt(sections, files["system_prompt"], date_str, version, build_time),
         "plugins":       write_plugins(files["plugins"], date_str, version, build_time),
