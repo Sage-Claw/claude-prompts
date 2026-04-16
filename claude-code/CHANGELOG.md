@@ -2,6 +2,23 @@
 
 ---
 
+## 2026-04-16 — v2.1.110
+
+**Commit:** `0a2b4c4`
+**Build time:** `unknown`
+**Prompt hash:** `e3b0c44298fc1c14` (was: `62b59327c359d567`)
+
+### Summary
+Extraction updated to Claude Code v2.1.110, but the extracted system prompt body is now effectively empty and build metadata is missing. This strongly suggests the binary extraction markers changed and the current parser did not capture sections correctly.
+
+### Key changes
+- Frontmatter version moved from `2.1.87` to `2.1.110`.
+- `build-time` became `unknown`.
+- Prompt hash changed to SHA256 empty-content prefix (`e3b0c44298fc1c14`).
+- Prior multi-section prompt content was removed from `claude-code/system-prompt.md`.
+
+---
+
 ## v2.1.86 — 2026-03-27
 
 **Prompt hash:** `1258ff383e073bc9` (was: `852c4b5d81f2a66f`)
