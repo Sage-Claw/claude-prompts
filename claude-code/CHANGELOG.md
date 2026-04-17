@@ -2,6 +2,22 @@
 
 ---
 
+## 2026-04-17 — v2.1.112
+
+**Commit:** `f0ab695`
+**Build time:** `unknown`
+**Prompt hash:** `e3b0c44298fc1c14` (was: `62b59327c359d567`)
+
+### Summary
+Extraction updated to Claude Code v2.1.112, but the captured prompt content collapsed to an empty-content hash and includes large non-prompt bundle text. This looks like an extraction regression rather than a real prompt simplification.
+
+### Key changes
+- `claude-code/system-prompt.md` now reports `build-time: unknown` and `prompt-hash: e3b0c44298fc1c14`.
+- Captured body no longer contains the expected structured prompt sections and instead includes minified bundle artifacts.
+- `claude-code/plugins.md` metadata updated to v2.1.112 with no plugin entries (`count: 0`).
+
+---
+
 ## v2.1.86 — 2026-03-27
 
 **Prompt hash:** `1258ff383e073bc9` (was: `852c4b5d81f2a66f`)
