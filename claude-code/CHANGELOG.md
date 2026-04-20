@@ -2,6 +2,22 @@
 
 ---
 
+## 2026-04-20 — v2.1.114
+
+**Commit:** `4ae6d9a`
+**Build time:** `unknown`
+**Prompt hash:** `e3b0c44298fc1c14` (was: `62b59327c359d567`)
+
+### Summary
+Extraction returned a near-empty payload and malformed tail content for v2.1.114, replacing the previously captured structured prompt sections. This looks like an extraction-path/parser regression on the npm-installed bundle, not a credible prompt rewrite.
+
+### Key changes
+- `claude-code/system-prompt.md` collapsed from full sectioned content to a short header plus minified JS fragment tail.
+- `claude-code/plugins.md` metadata advanced to v2.1.114 (`build-time: unknown`), plugin content hash unchanged.
+- Result should be treated as a regression signal and investigated against the npm `cli.js` bundle extraction path.
+
+---
+
 ## v2.1.86 — 2026-03-27
 
 **Prompt hash:** `1258ff383e073bc9` (was: `852c4b5d81f2a66f`)
