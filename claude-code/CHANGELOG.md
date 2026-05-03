@@ -2,6 +2,22 @@
 
 ---
 
+## 2026-05-03 — v2.1.126
+
+**Commit:** `1973c96`
+**Build time:** `unknown`
+**Prompt hash:** `e3b0c44298fc1c14` (was: `62b59327c359d567`)
+
+### Summary
+Extraction output regressed again. The captured system prompt collapsed to a minimal header/body and a large minified JS/bundle tail, replacing prior structured sections.
+
+### Key changes
+- `claude-code/system-prompt.md` shrank from the structured multi-section prompt to a short shell with mostly empty payload hash.
+- `claude-code/plugins.md` metadata advanced to extraction date `2026-05-03` and version `2.1.126` (plugin count still `0`).
+- Build metadata remains unavailable (`build-time: unknown`).
+
+---
+
 ## v2.1.86 — 2026-03-27
 
 **Prompt hash:** `1258ff383e073bc9` (was: `852c4b5d81f2a66f`)
