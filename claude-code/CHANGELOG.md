@@ -2,6 +2,22 @@
 
 ---
 
+## 2026-05-17 — v2.1.143
+
+**Commit:** `b1a4c31`
+**Build time:** `unknown`
+**Prompt hash:** `e3b0c44298fc1c14` (was: `62b59327c359d567`)
+
+### Summary
+Extraction for v2.1.143 updated metadata and produced an effectively empty prompt body. This appears to be an extractor mismatch with the current Claude Code bundle format rather than a normal prompt edit.
+
+### Key changes
+- `claude-code/system-prompt.md` was reduced to header-only content with no captured sections.
+- `claude-code/plugins.md` metadata updated to v2.1.143 (plugin count still 0).
+- Follow-up needed to update extractor patterns for the current CLI bundle.
+
+---
+
 ## v2.1.86 — 2026-03-27
 
 **Prompt hash:** `1258ff383e073bc9` (was: `852c4b5d81f2a66f`)
